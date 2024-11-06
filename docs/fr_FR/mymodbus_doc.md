@@ -35,7 +35,7 @@ leur adresse.
 
 Par exemple, pour la zone mémoire de la mémoire interne des automates Wago, les premières adresses sont organisées
 comme ceci :  
-![Adresses Wago](../images/Exemple_adresses.png)
+![Adresses Wago](../images/mymodbus/Exemple_adresses.png)
 
 Dans ce cas, c'est un peu particulier, parce que les bits (%MW0.5, par exemple) sont dans la même plage mémoire que
 les registres avec une plage d'adresse Modbus commune. Donc la fonction read_coils à l'adresse 12295 lira %MW0.7 tandis
@@ -54,10 +54,10 @@ Il est fortement conseillé de désactiver la gestion automatique du démon dura
 soit pas démarré par Jeedom sans que MyModbus ne soit installé complètement.
 
 Ici, on peut constater que l'installation de MyModbus sur un Raspberry PI 3B peut durer vraiment longtemps :  
-![Installation sur un Rasperry PI 3B](../images/Installation_RPI3B.png)
+![Installation sur un Rasperry PI 3B](../images/mymodbus/Installation_RPI3B.png)
 
 Une fois l'installation terminée, la page de gestion du plugin MyModbus ressemblera à ceci :  
-![Installation terminée](../images/Installation_terminée.png)
+![Installation terminée](../images/mymodbus/Installation_terminée.png)
 
 Vous pouvez activer la gestion automatique du démon par Jeedom si vous le souhaitez.
 
@@ -78,7 +78,7 @@ contiendra autant de commandes info ou action que vous avez de variables à lire
 sont respectés. Si vous souhaitez scinder un appareil en plusieurs équipements, c'est possible, il suffit d'utiliser
 "Interface d'un autre équipement" pour le deuxième équipement et de choisir l'équipement dont la connexion sera
 utilisée :
-![Connexion partagée](../images/Interface_partagée.png)
+![Connexion partagée](../images/mymodbus/Interface_partagée.png)
 
 Un outil "Déplacer les commandes", accessible depuis la page de gestion des équipements, permet de déplacer les
 commandes entre les équipement partageant la même interface afin de ne pas perdre l'historique ni tous les liens dans
@@ -100,11 +100,11 @@ Le fait de sauvegarder la configuration lance une validation. Si la configuratio
 démon est actualisée.
 
 La configuration se fait via Plugins / Protocole domotique / MyModbus :  
-![Accès à la configuration](../images/Menu_configuration.png)
+![Accès à la configuration](../images/mymodbus/Menu_configuration.png)
 
 ## Configuration du plugin
 
-![Configuration du plugin](../images/Configuration_plugin.png)
+![Configuration du plugin](../images/mymodbus/Configuration_plugin.png)
 
 Il est possible de modifier le port de communication interne entre le démon et le core du plugin. Par défaut, ce port
 est à 55502 et il est fortement conseillé de ne pas le modifier et de le laisser ce champ vide sauf si ce port est
@@ -122,12 +122,12 @@ existent.
 ## Création d'un équipement 
 
 C'est la première étape. Sans équipement, le démon n'est pas démarré. Après l'installation, la configuration est vide :  
-![Configuration vide](../images/Configuration_vide.png)
+![Configuration vide](../images/mymodbus/Configuration_vide.png)
 
 En cliquant sur "Ajouter", vous êtes invité à donner le nom de votre équipement et à sélectionner le template. Pour la
 documentation, ce nom sera "Equipement MyModbus" et aucun template ne sera utilisé. En validant, vous arrivez à la page
 de configuration de l'équipement. Juste après sa création, l'équipement n'est pas configuré :  
-![Equipement initial](../images/Equipement_initial.png)
+![Equipement initial](../images/mymodbus/Equipement_initial.png)
 
 ## Configuration d'un équipement
 
@@ -197,7 +197,7 @@ peuvent pas être supprimées.
 ### Cas d'une connexion série
 
 Une connexion série non configurée se présente comme ceci :  
-![Connexion série vierge](../images/Connexion_série_vierge.png)
+![Connexion série vierge](../images/mymodbus/Connexion_série_vierge.png)
 
 L'interface correspond au point de connexion de la liaison série sur votre machine Jeedom. Jeedom propose une liste
 d'interfaces standards en fonction du modèle de votre machine. En plus de ces interfaces, MyModbus propose les
@@ -214,12 +214,12 @@ interface utiliser.
 Les autres paramètres sont à aligner avec la configuration décrite dans la documentation constructeur de votre appareil.
 
 Voici un exemple de configuration série :  
-![Connexion série vierge](../images/Connexion_série.png)
+![Connexion série vierge](../images/mymodbus/Connexion_série.png)
 
 ### Cas d'une connexion TCP, UDP ou RTUoverTCP
 
 Une connexion TCP non configurée se présente comme ceci :  
-![Connexion TCP vierge](../images/Connexion_TCP_vierge.png)
+![Connexion TCP vierge](../images/mymodbus/Connexion_TCP_vierge.png)
 
 Ici la configuration est simple : il suffit de renseigner l'adresse IP de l'appareil et le port à utiliser. Sauf cas
 particulier, le port est le 502.
@@ -249,12 +249,12 @@ Pour créer une nouvelle commande, il faut cliquer sur le bouton "Ajouter une co
 Vous pouvez commencer par donner un nom à la commande et définir s'il s'agit d'une commande info ou action. Si une
 commande n'a pas de nom, la configuration n'est pas enregistrée.
 
-![Commande créée](../images/Commande_créée.png)
+![Commande créée](../images/mymodbus/Commande_créée.png)
 
 ### Sous-type
 
 Pour **les commandes info**, les trois sous-types proposés par Jeedom peuvent être utilisés :  
-![Sous-types d'une commande info](../images/Commande_info_sous_types.png)
+![Sous-types d'une commande info](../images/mymodbus/Commande_info_sous_types.png)
 
 | Type de registre     | Sous-type |
 | -------------------- | --------- |
@@ -263,7 +263,7 @@ Pour **les commandes info**, les trois sous-types proposés par Jeedom peuvent �
 | chaine de caractères | Autre     |
 
 Pour **les commandes action**, les cinq sous-types proposés par Jeedom peuvent être utilisés :  
-![Sous-types d'une commande action](../images/Commande_action_sous_types.png)
+![Sous-types d'une commande action](../images/mymodbus/Commande_action_sous_types.png)
 
 | Type de registre     | Sous-type        |
 | -------------------- | ---------------- |
@@ -300,7 +300,7 @@ Pour comprendre cette partie, il faut un peu de théorie :
 > MyModbus. En fonction de la plage de la valeur à coder, le type de variable peut changer. Le codage est soit donné
 > dans la documentation, soit à déduire des données de la documentation.
 
-![Type de variable](../images/Commande_type_variable.png)
+![Type de variable](../images/mymodbus/Commande_type_variable.png)
 
 | Codage               | Type de variable          |
 | -------------------- | ------------------------- |
@@ -356,7 +356,7 @@ cochant la bonne configuration. C'est la différence entre "little endian" et "b
 processeur de la machine Jeedom est utilisé par défaut. Si la case est cochée, le format est inversé. Attention donc à
 ce point si vous partagez un template d'équipement.
 
-![Adresse Modbus](../images/Commande_adresse_modbus.png)
+![Adresse Modbus](../images/mymodbus/Commande_adresse_modbus.png)
 
 ### Paramètres d'une commande info
 
@@ -369,9 +369,9 @@ une mise à l'échelle ou le filtrage d'un bit. Vous pouvez mettre dans ce champ
 saisir '#value#' et de respecter la syntaxe de php. Toutes les fonctions mathématiques de php sont disponibles.  
 Exemple : '(#value# + 7) * 3'  
 Si vous souhaitez extraire un bit d'un registre de 16 bits (préférablement de type uint16), vous pouvez utiliser la
-fonction d'aide en cliquant sur l'icône ![Icône](../images/Commande_aide_calcul.png) à droite du champ de saisie afin
+fonction d'aide en cliquant sur l'icône ![Icône](../images/mymodbus/Commande_aide_calcul.png) à droite du champ de saisie afin
 d'appeler la fenêtre suivante :  
-![Icône](../images/Commande_fenêtre_aide_calcul.png)
+![Icône](../images/mymodbus/Commande_fenêtre_aide_calcul.png)
 
 > :warning: ***Attention***  
 > Ce champ ne doit pas contenir de ';' sinon la sauvegarde est invalidée.
@@ -428,7 +428,7 @@ commandes info suivantes.
 Plus simplement : on lit tout une plage et on vient piocher dans cette plage les valeurs dont on a réellement besoin.
 
 Ici un exemple :  
-![Exemple d'utilisation de plage de registres](../images/exemple_plage.png)
+![Exemple d'utilisation de plage de registres](../images/mymodbus/exemple_plage.png)
 
 Dans cet exemple, la commande avec l'ID 291 lit une plage à partir de l'adresse 12308 et de 8 registres, donc jusqu'à
 l'adresse 12315.  
@@ -450,7 +450,7 @@ commande qui a une erreur. Les messages sont assez explicites et les erreurs doi
 sauvegarde soit faite.
 
 Exemple d'erreur sur la configuration de l'équipement 'Equipement MyModbus' :  
-![Erreur sur un équipement](../images/Erreur_equipement.png)
+![Erreur sur un équipement](../images/mymodbus/Erreur_equipement.png)
 
 Exemple d'erreur sur la configuration de la commande 'Température extérieure' :  
-![Erreur sur une commande](../images/Erreur_commande.png)
+![Erreur sur une commande](../images/mymodbus/Erreur_commande.png)
