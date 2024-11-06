@@ -48,8 +48,8 @@ if (getCookie('lang') != lang) {
 
 $('#meta-lang').attr('content', lang);
 var lang_pos = window.location.href.indexOf(lang);
-var underscore_pos = window.location.href.indexOf('_', lang_pos + lang_pos.length + 1);
-var doc_plugin = window.location.href.substring(lang_pos + lang_pos.length + 1, underscore_pos);
+var underscore_pos = window.location.href.indexOf('_', lang_pos + lang.length + 1);
+var doc_plugin = window.location.href.substring(lang_pos + lang.length + 1, underscore_pos);
 if (getCookie('doc_plugin') != doc_plugin) {
   setCookie('doc_plugin', doc_plugin, 7);
 }
