@@ -20,12 +20,12 @@ créer un équipement par bassin auquel il a accès.
 Une fois le plugin installé depuis le market, il faut configurer votre accès à l'API. Il s'agit de l'identifiant et du
 mot de passe qui vous servent à vous connecter au [site officiel](https://connect.klereo.fr/v3). Ces informations sont
 à renseigner dans la configuration du plugin via le menu Plugins / Gestion des plugins puis sur le plugin Klereo :  
-![Gestion du plugin Klereo](../images/Gestion_du_plugin_Klereo.png)
+![Gestion du plugin Klereo](../images/klereo/Gestion_du_plugin_Klereo.png)
 
 Là, vous devez remplir les informations de connexion :  
-![Informations de connexion](../images/Informations_de_connexion.png)
+![Informations de connexion](../images/klereo/Informations_de_connexion.png)
 
-Attention à bien cliquer sur le bouton ![Sauvegarder](../images/Sauvegarder.png) sans quoi votre saisie ne sera pas
+Attention à bien cliquer sur le bouton ![Sauvegarder](../images/klereo/Sauvegarder.png) sans quoi votre saisie ne sera pas
 sauvegardée.  
 Le fait de sauvegarder les identifiants réinitialise le plugin complet. Tous les équipements et toutes les commandes du
 plugin sont effacées sans qu'une validation soit demandée, alors soyez prudent. Tout de suite après l'installation du
