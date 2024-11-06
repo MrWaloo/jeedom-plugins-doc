@@ -1,8 +1,4 @@
-# Changelog Klereo bêta
-
-> :memo: ***Remarque***  
-> Si une mise à jour du plugin en version bêta est disponible sans détails correspondants sur cette page, cela signifie
-> que seule la documentation a été mise à jour.
+# Changelog Klereo
 
 ## TODO
 - Revoir la gestion du cache dès que Jeedom V4.4.10 sortira (gestion du lifetime) et passer la version mini de Jeedom en 4.4.10

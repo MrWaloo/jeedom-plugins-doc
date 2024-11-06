@@ -1,8 +1,4 @@
-# Présentation du plugin Klereo (stable)
-
-> :memo: ***Remarque***  
-> Il s'agit de la documentation du plugin en version bêta. Les fonctionnalitées à venir sont listées dans la todo-liste
-> au début du changelog et ne sont donc pas évoquées ici.
+# Plugin Klereo
 
 Le plugin Klereo permet de gérer son bassin connecté avec la box Klereo connect avec Jeedom. Analogiquement au [site
 officiel](https://connect.klereo.fr/v3) et si l'équipement de l'installation le permet, le plugin donne accès :
@@ -24,12 +20,12 @@ créer un équipement par bassin auquel il a accès.
 Une fois le plugin installé depuis le market, il faut configurer votre accès à l'API. Il s'agit de l'identifiant et du
 mot de passe qui vous servent à vous connecter au [site officiel](https://connect.klereo.fr/v3). Ces informations sont
 à renseigner dans la configuration du plugin via le menu Plugins / Gestion des plugins puis sur le plugin Klereo :  
-![Gestion du plugin Klereo](../../images/Gestion_du_plugin_Klereo.png)
+![Gestion du plugin Klereo](../images/Gestion_du_plugin_Klereo.png)
 
 Là, vous devez remplir les informations de connexion :  
-![Informations de connexion](../../images/Informations_de_connexion.png)
+![Informations de connexion](../images/Informations_de_connexion.png)
 
-Attention à bien cliquer sur le bouton ![Sauvegarder](../../images/Sauvegarder.png) sans quoi votre saisie ne sera pas
+Attention à bien cliquer sur le bouton ![Sauvegarder](../images/Sauvegarder.png) sans quoi votre saisie ne sera pas
 sauvegardée.  
 Le fait de sauvegarder les identifiants réinitialise le plugin complet. Tous les équipements et toutes les commandes du
 plugin sont effacées sans qu'une validation soit demandée, alors soyez prudent. Tout de suite après l'installation du
