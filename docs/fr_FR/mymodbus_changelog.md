@@ -311,71 +311,71 @@ Version avec une configuration permettant une meilleure compatibilité
 ## 10/03/2023 V3.0 bêta1
 - Réécriture complète du plugin afin de gérer un maximum de modes et de formats de données
 
-# 08/03/2023 V2.3 stable
+## 08/03/2023 V2.3 stable
 - Passage de la version beta en stable, il faudra impérativement relancer les dépendances !
 - Par sécurité avant de faire la mise à jour, vous pouvez faire un backup de votre installation. 
 
-# 17/03/2021 V2.2.3 bêta
+## 17/03/2021 V2.2.3 bêta
 - ajout options dans la page de configuration pour redémarrer les démons si Nok 
 
-# 06/03/2021 V2.2.2 bêta
+## 06/03/2021 V2.2.2 bêta
 - ajout gestion du rtu (test) 
 
-# 07/02/2021 V2.2.0 bêta
+## 07/02/2021 V2.2.0 bêta
 - ajout gestion des démons 
 
-# 04/01/2021 V2.1.2 bêta
+## 04/01/2021 V2.1.2 bêta
 - ajout écriture multiples registers fonction 16 
 
-# 28/12/2020 V2.1.1 bêta
+## 28/12/2020 V2.1.1 bêta
 - Mise à jour du script d'écriture pour python 3 (version beta)
 
-# 22/06/2020 V2.1 bêta
+## 22/06/2020 V2.1 bêta
 - Ajout d'un mode pour la lecture des inputs_registers des compteurs de puissances Eastrom (version beta)
 
-# 01/06/2020 V2.0 bêta
+## 01/06/2020 V2.0 bêta
 - Passage en python3 nécessite une mise à jour des dépendances
 - Possibilité de filtrer directement des bits dans le plugin, sans passer par des virtuels
 - Ajout de la lecture de float et de int en holding register 
 
-# 09/04/2020 V1.4.stable
+## 09/04/2020 V1.4.stable
 - Mise à jour Logo ..... Merci alois.myard pour cette création 
 
-# 23/03/2020 V1.4.4
+## 23/03/2020 V1.4.4
 - mise à jour page configuration, ajout des équipements en paramètre.
 
-# 23/03/2020 V1.4.4
+## 23/03/2020 V1.4.4
 - Ajout page santé
 
-# 21/03/2020 V1.4.3
+## 21/03/2020 V1.4.3
 - Ajout configuration pour automate Wago 
 
-# 15/03/2020 V1.4.2
+## 15/03/2020 V1.4.2
 - Mise à jour du script des dépendances V1.3
 
-# 05/03/2020 V1.4.1
+## 05/03/2020 V1.4.1
 - Mise à jour du logo au standard officiel.
 
-# 23/02/2020 V1.4.0
+## 23/02/2020 V1.4.0
 - Ajout compatibilité Jeedom en V3.3 (suite test fais en V3.3)
 
-# 09/02/2020 V1.3.2
+## 09/02/2020 V1.3.2
 - Ajout Python PIP dans le script d'installation des dépendances. (Suite problème remonté sur Community par @hitaki)
 
-# 03/02/2020 V1.3.1
+## 03/02/2020 V1.3.1
 - Suppression du time out sur la gestion du port de com, car il entrainait des erreurs de lecture
 
-# 22/01/2020 V1.3
+## 22/01/2020 V1.3
 - Résolution du bug sur le retour des valeurs des équipements à IP commune.
 
-# 18/01/2020 V1.2 bêta
+## 18/01/2020 V1.2 bêta
 - Découverte d'un bug sur la lecture d'une même ip avec un unit différent. En cours de résolution 
 - correction du script d'écriture (ajour de l'unit id) essais sur un automate wago ok  
 
-# 28/12/2019 V1.1 stable
+## 28/12/2019 V1.1 stable
 - passage en stable (demande en cours) 
 
-# 14/01/2020 V1.2 bêta
+## 14/01/2020 V1.2 bêta
 - Correction bug sur sauvegarde
 - Mise à jour visuel commandes
 - Mise en service du NTP pour crouzet à 00h30 si activé
