@@ -3,7 +3,7 @@
 ## TODO
 - Traduction
 - Ne plus utiliser le dépôt github de Bebel27 pour la documentation
-- Proposer un outil permettant de vérifier l'existence de registres avec différentes configuration de décodage des informations reçues.
+- Proposer un outil permettant de vérifier l'existence de registres avec différentes configurations de décodage des informations reçues.
 - Documentation :
   - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 bêta58)
 
@@ -161,7 +161,7 @@ dans la documentation constructeur.
 ## 21/02/2024 V3.0 bêta33
 - Ajout d'un bouton dans la configuration du plugin pour supprimer le répertoire ressources/_pyenv
 - Affichage de toute la config dans le visualisateur de template
-- Possibilité d'utiliser #value# dans le champs valeur d'une commande action pour faire référence à la valeur de la commande info liée
+- Possibilité d'utiliser #value# dans le champ valeur d'une commande action pour faire référence à la valeur de la commande info liée
 
 ## 17/02/2024 V3.0 bêta32
 - Correction pour que '0' puisse être écrit (merci à Doud)
@@ -316,7 +316,7 @@ Version avec une configuration permettant une meilleure compatibilité
 - Par sécurité avant de faire la mise à jour, vous pouvez faire un backup de votre installation. 
 
 # 17/03/2021 V2.2.3 bêta
-- ajout options dans la page de configuration pour redememarrer les demons si Nok 
+- ajout options dans la page de configuration pour redémarrer les démons si Nok 
 
 # 06/03/2021 V2.2.2 bêta
 - ajout gestion du rtu (test) 
@@ -334,7 +334,7 @@ Version avec une configuration permettant une meilleure compatibilité
 - Ajout d'un mode pour la lecture des inputs_registers des compteurs de puissances Eastrom (version beta)
 
 # 01/06/2020 V2.0 bêta
-- Passage en python3 necessite une mise à jour des dépendances
+- Passage en python3 nécessite une mise à jour des dépendances
 - Possibilité de filtrer directement des bits dans le plugin, sans passer par des virtuels
 - Ajout de la lecture de float et de int en holding register 
 
@@ -342,7 +342,7 @@ Version avec une configuration permettant une meilleure compatibilité
 - Mise à jour Logo ..... Merci alois.myard pour cette création 
 
 # 23/03/2020 V1.4.4
-- mise à jour page configuration, ajout des équipements en paramétre.
+- mise à jour page configuration, ajout des équipements en paramètre.
 
 # 23/03/2020 V1.4.4
 - Ajout page santé
@@ -370,7 +370,7 @@ Version avec une configuration permettant une meilleure compatibilité
 
 # 18/01/2020 V1.2 bêta
 - Découverte d'un bug sur la lecture d'une même ip avec un unit différent. En cours de résolution 
-- correction du script d'ecriture (ajour de l'unit id) essais sur un automate wago ok  
+- correction du script d'écriture (ajour de l'unit id) essais sur un automate wago ok  
 
 # 28/12/2019 V1.1 stable
 - passage en stable (demande en cours) 
