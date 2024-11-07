@@ -4,7 +4,7 @@ Le plugin MyModBus permet d'intégrer des communications Modbus dans Jeedom. MyM
 communiquer en :
 - Ethernet TCP standard ou RTU
 - Ethernet UDP
-- Série en mode binaire, ASCII ou RTU
+- Série en mode ASCII ou RTU
 
 Il est compatible avec plusieurs types d’appareil (automate, chaudière, VMC, onduleur, …).
 
