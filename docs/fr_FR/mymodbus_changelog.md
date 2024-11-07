@@ -10,7 +10,7 @@
 ## 07/11/2024 versions stable et bêta sans modification de version
 - Mise à jour du lien vers la documentation
 
-Explications : https://community.jeedom.com/t/evolutions-du-plugin-mymodbus-version-stable/133443?u=michel_f
+Explications : [https://community.jeedom.com/t/evolutions-du-plugin-mymodbus-version-stable/133443?u=michel_f](https://community.jeedom.com/t/evolutions-du-plugin-mymodbus-version-stable/133443?u=michel_f)
 
 ## 05/11/2024 V3.0 bêta58
 - Cas particulier d'extraction d'un bit de registre dans une plage de registres (merci Doud)
