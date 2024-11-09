@@ -2,10 +2,12 @@
 
 ## TODO
 - Traduction
-- Ne plus utiliser le dépôt github de Bebel27 pour la documentation
 - Proposer un outil permettant de vérifier l'existence de registres avec différentes configurations de décodage des informations reçues.
 - Documentation :
-  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 bêta58)
+  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 bêta59)
+
+## 09/11/2024 V3.0 bêta59
+- Vérification que la plage de registres source soit définie (merci ludoviclt)
 
 ## 07/11/2024 versions stable et bêta sans modification de version
 - Mise à jour du lien vers la documentation
