@@ -8,6 +8,7 @@
 
 ## 09/11/2024 V3.0 bêta59
 - Vérification que la plage de registres source soit définie (merci ludoviclt)
+- Vérification de la version des modules installés
 
 ## 07/11/2024 versions stable et bêta sans modification de version
 - Mise à jour du lien vers la documentation
