@@ -360,7 +360,7 @@ ce point si vous partagez un template d'équipement.
 
 ### Paramètres d'une commande info
 
-Deux champs de paramétrages sont proposés :
+Deux champs de paramétrage sont proposés :
 - l'option de calcul
 - "Lecture 1x sur"
 
@@ -373,8 +373,13 @@ fonction d'aide en cliquant sur l'icône ![Icône](../images/mymodbus/Commande_a
 d'appeler la fenêtre suivante :  
 ![Icône](../images/mymodbus/Commande_fenêtre_aide_calcul.png)
 
+> :bulb: ***Astuce***  
+> Si vous voulez tester si un registre vaut 77, il suffit de créer une commande info de sous-type binaire qui lit le registre
+> à tester comme un registre numérique mais avec `#value# == 77` dans le champ option.
+> Le test *différent* fonctionne aussi avec `!=`.
+
 > :warning: ***Attention***  
-> Ce champ ne doit pas contenir de ';' sinon la sauvegarde est invalidée.
+> Le champ option ne doit pas contenir de ';' (point-virgule) sinon la sauvegarde est invalidée.
 
 L'option "Lecture 1x sur" permet de ne pas lire ce registre lors de tous les cycles de polling mais une fois tous les
 X cycles. Cela permet de limiter les requêtes de lecture sur des données statiques, comme un numéro de série par exemple,

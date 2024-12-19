@@ -4,7 +4,10 @@
 - Traduction
 - Proposer un outil permettant de vérifier l'existence de registres avec différentes configurations de décodage des informations reçues.
 - Documentation :
-  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 bêta60)
+  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 bêta61)
+
+## 19/12/2024 V3.0 bêta61
+- Un test d'égalité ou de différence avec une valeur (ou une chaine de caractères) est maintenant possible pour une commande info de sous-type binaire qui lit un registre (merci ludoviclt)
 
 ## 07/12/2024 V3.0 bêta60
 - Correction d'une erreur qui empêchait l'import des commandes de lecture de plage de registres lors de l'utilisation d'un template (merci ludoviclt)
