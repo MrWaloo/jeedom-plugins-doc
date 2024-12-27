@@ -1,10 +1,15 @@
 # Changelog Klereo
 
 ## TODO
-- Revoir la gestion du cache dès que Jeedom V4.4.10 sortira (gestion du lifetime) et passer la version mini de Jeedom en 4.4.10
-- Revoir les messages de log pour le passage en stable
+- Revoir la gestion du cache (gestion du lifetime) et passer la version mini de Jeedom en 4.4.10+ (?)
 - Créer un widget
 - Permettre de modifier les plages horaires du mode 'Plage' pour les sorties qui peuvent être pilotées dans ce mode
+
+## 28/12/2024 V1.1 beta1
+
+- Correction typo
+- Correction du message d'alerte si plusieurs alertes sont présentes. Maintenant toutes les alertes apparaitront et pas seulement la
+dernière de la liste de l'API
 
 ## 08/10/2024 V1.0 stable
 
