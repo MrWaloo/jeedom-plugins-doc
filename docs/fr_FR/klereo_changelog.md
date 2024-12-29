@@ -5,6 +5,10 @@
 - Créer un widget
 - Permettre de modifier les plages horaires du mode 'Plage' pour les sorties qui peuvent être pilotées dans ce mode
 
+## 30/12/2024 V1.1 beta1
+
+- Mise à jour du lien vers la documentation
+
 ## 28/12/2024 V1.1 beta1
 
 - Correction typo
