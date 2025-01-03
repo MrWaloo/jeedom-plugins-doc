@@ -7,7 +7,7 @@
   - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 bêta62)
 
 ## 03/01/2025 V3.0 bêta62
-- Petite modification pratique et purement estétique : l'ID de l'équipement est affiché dans l'onglet
+- Petite modification pratique et purement esthétique : l'ID de l'équipement est affiché dans l'onglet
 
 ## 19/12/2024 V3.0 bêta61
 - Un test d'égalité ou de différence avec une valeur (ou une chaine de caractères) est maintenant possible pour une commande info de sous-type binaire qui lit un registre (merci ludoviclt)
