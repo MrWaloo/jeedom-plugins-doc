@@ -1,6 +1,6 @@
 # Migration du plugin MyModbus version stable
 
-> DISCLAIMER
+> DISCLAIMER  
 > Je suis certain que certains utilisateurs n'auront pas lu cette documentation avant de faire la mise à jour de la version stable.
 > Si c'est votre cas, je vous conseille de garder votre dernière sauvegarde sur votre ordinateur, vous risquez d'en avoir besoin. Vous
 > pouvez faire un fil de discussion sur [community](https://community.jeedom.com/tag/plugin-mymodbus) je ferai mon possible pour vous
