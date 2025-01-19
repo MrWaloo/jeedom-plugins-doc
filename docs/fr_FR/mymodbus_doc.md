@@ -45,6 +45,14 @@ plupart ne mettent à disposition que des registres numériques à lire avec la 
 
 ***
 
+# Migration de MyModbus
+
+La version stable de MyModbus jusqu'à début 2025 était dépassée. La version bêta qui a été réécrite depuis fin 2023 et
+qui donne satisfaction aujourd'hui en terme de fonctionnalité et de stabilité remplace cette ancienne version stable.  
+La documentation de la migration de cette version se trouve [ici](mymodbus_migration.md).
+
+***
+
 # Installation de MyModbus
 
 L'installation se fait via le market, comme tous les plugins Jeedom. Une fois téléchargé, MyModbus installe ses
