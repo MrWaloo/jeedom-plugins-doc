@@ -4,7 +4,10 @@
 - Traduction
 - Proposer un outil permettant de vérifier l'existence de registres avec différentes configurations de décodage des informations reçues.
 - Documentation :
-  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 bêta62)
+  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 bêta63)
+
+## 22/01/2025 V3.0 bêta63
+- Correction d'une erreur de syntaxe PHP qui empêchait le nettoyage des fichiers obsolètes
 
 ## 03/01/2025 V3.0 bêta62
 - Petite modification pratique et purement esthétique : l'ID de l'équipement est affiché dans l'onglet
