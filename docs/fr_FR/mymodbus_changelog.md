@@ -4,7 +4,10 @@
 - Traduction
 - Proposer un outil permettant de vérifier l'existence de registres avec différentes configurations de décodage des informations reçues.
 - Documentation :
-  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 bêta63)
+  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 stable)
+
+## 23/01/2025 V3.0 stable
+- Passage de la version 3.0 bêta63 en stable
 
 ## 22/01/2025 V3.0 bêta63
 - Correction d'une erreur de syntaxe PHP qui empêchait le nettoyage des fichiers obsolètes
@@ -25,7 +28,7 @@
 ## 07/11/2024 versions stable et bêta sans modification de version
 - Mise à jour du lien vers la documentation
 
-Explications : [https://community.jeedom.com/t/evolutions-du-plugin-mymodbus-version-stable/133443?u=michel_f](https://community.jeedom.com/t/evolutions-du-plugin-mymodbus-version-stable/133443?u=michel_f)
+Explications : [https://community.jeedom.com/t/evolutions-du-plugin-mymodbus-version-stable/133443](https://community.jeedom.com/t/evolutions-du-plugin-mymodbus-version-stable/133443)
 
 ## 05/11/2024 V3.0 bêta58
 - Cas particulier d'extraction d'un bit de registre dans une plage de registres (merci Doud)
