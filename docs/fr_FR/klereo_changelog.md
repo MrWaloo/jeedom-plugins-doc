@@ -5,11 +5,15 @@
 - Créer un widget
 - Permettre de modifier les plages horaires du mode 'Plage' pour les sorties qui peuvent être pilotées dans ce mode
 
-## 30/12/2024 V1.1 beta1
+## 25/01/2025 V1.0.1 stable
+
+La version bêta devient stable, les deux versions sont alignées
+
+## 30/12/2024 V1.0.1 beta2
 
 - Mise à jour du lien vers la documentation
 
-## 28/12/2024 V1.1 beta1
+## 28/12/2024 V1.0.1 beta1
 
 - Correction typo
 - Correction du message d'alerte si plusieurs alertes sont présentes. Maintenant toutes les alertes apparaitront et pas seulement la
