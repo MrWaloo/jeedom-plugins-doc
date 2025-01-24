@@ -8,6 +8,7 @@
 
 ## 23/01/2025 V3.0 stable
 - Passage de la version 3.0 bêta63 en stable
+- Suppression du lien invalide vers une vidéo dans la description (24/01/2025)
 
 ## 22/01/2025 V3.0 bêta63
 - Correction d'une erreur de syntaxe PHP qui empêchait le nettoyage des fichiers obsolètes
