@@ -6,6 +6,9 @@
 - Documentation :
   - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 stable)
 
+## Développement en cours dans la branche beta-dev pour la prochaine bêta
+- Utilisation de pymodbus V3.8.3
+
 ## 23/01/2025 V3.0 stable
 - Passage de la version 3.0 bêta63 en stable
 - Suppression du lien invalide vers une vidéo dans la description (24/01/2025)

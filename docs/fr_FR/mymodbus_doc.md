@@ -75,6 +75,10 @@ Python3, de préférence la version 3.11, ne vous inquiétez pas, ce point est g
 sur votre machine Jeedom.  
 Dans la mesure du possible MyModbus utilisera la dernière version de pymodbus.
 
+Un jour, j'ai développé le plugin pyenv4Jeedom pour gérer l'installation de la bonne version de python. Ce plugin est
+abandonné et peut être désinstallé. MyModbus utilise une bibliothèque développée par Mips, nebz et TiTiDom pour faire
+la même chose. Tout est transparent pour l'utilisateur.
+
 ***
 
 # Configuration de MyModbus
