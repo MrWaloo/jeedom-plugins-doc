@@ -103,7 +103,7 @@ Pour chaque équipement, il faut préciser le type de connexion ainsi que les pa
 > :memo: ***Remarque***  
 > Si vous avez plusieurs appareils en Modbus série et que vous communiquez avec ces appareils via la même interface, il
 > faut alors ne déclarer qu'un seul équipement MyModbus et spécifier l'adresse esclave de l'appareil dans les
-> commandes. D'autres équipement qui utilise la connexion de cet équipement peuvent être créés pour lire les autres
+> commandes. D'autres équipements qui utilisent la connexion de cet équipement peuvent être créés pour lire les autres
 > esclaves.
 
 Pour chaque commande, il faut préciser les type et sous-type Jeedom ainsi que les paramètres de la requête Modbus.
