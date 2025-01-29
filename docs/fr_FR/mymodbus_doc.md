@@ -291,9 +291,7 @@ Si la commande correspond à un registre dans un esclave sur un bus série d'une
 une passerelle IP/série, vous devez renseigner l'adresse de l'esclave sur le bus Modbus. Sinon vous pouvez laisser "1".
 
 > :memo: ***Remarque***  
-> 1. L'adresse esclave "0" correspond au broadcast dans le protocole. Cette adresse n'est pas supportée par la version
-> pymodbus 3.7.2. Ce problème est corrigé dans les versions suivantes.  
-> 2. Sur l'ancienne version bêta, ce paramètre s'appelait "Unit ID" et était à configurer dans l'équipement.
+> Sur l'ancienne version bêta, ce paramètre s'appelait "Unit ID" et était à configurer dans l'équipement.
 
 ### Fonction Modbus
 
