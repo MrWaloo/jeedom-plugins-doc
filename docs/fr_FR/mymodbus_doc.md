@@ -322,7 +322,6 @@ Pour comprendre cette partie, il faut un peu de théorie :
 | chaine de caractères | Chaine de caractères      |
 | plage de registres   | Plage de registres        |
 | SunSpec scale factor | Type spécifique à SunSpec |
-|                      |                           |
 
 Pour les types int, uint et float, le démon MyModbus lira le bon nombre de registres en fonction du nombre de bits sur
 lesquels sont codées les variables. L'adresse de ces variables doit être un nombre.
