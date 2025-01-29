@@ -179,10 +179,12 @@ Si le temps de polling est configuré trop faible par rapport au temps nécessai
 le temps de polling est réajusté par le démon sans modifier la configuration. Cette valeur est sauvegardée dans la
 commande info "Polling" créée automatiquement lors de la première sauvegarde.
 
-"Timeout" est le temps en secondes durant lequel une réponse à la requête est attendu par le module pymodbus. Si ce
+"Timeout" est le temps en secondes durant lequel une réponse à la requête est attendue par le module pymodbus. Si ce
 temps est dépassé sans réponse, la requêtes est renvoyée. Ceci se produit autant de fois que configuré dans "Nombre de
 tentatives en cas d'erreur". Si après ce nombre de fois l'appareil n'envoie toujours pas de réponse à la requêtes, la
-commande info "Cycle OK" est passée à 0 et la prochaine requête est envoyée.
+commande info "Cycle OK" est passée à 0 et la prochaine requête est envoyée.  
+La commande info "Cycle OK" repasse automatiquement à 1 dès qu'un cycle de lecture complet est fait sans erreur,
+c'est-à-dire une fois que toutes les commandes info nécessitant une requête de lecture sont sans erreur.
 
 "Temps entre 2 requêtes de lecture" est le temps d'attente entre la réception d'une réponse et l'envoie d'une nouvelle
 requête. Ce temps peut être mis à 0 dans la plupart des cas, il est surtout utile pour des connexions lentes,

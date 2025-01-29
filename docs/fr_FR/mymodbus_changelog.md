@@ -8,6 +8,7 @@
 
 ## Développement en cours dans la branche beta-dev pour la prochaine bêta
 - Utilisation de pymodbus V3.8.3
+- Simplification de la page modale santé
 
 ## 23/01/2025 V3.0 stable
 - Passage de la version 3.0 bêta63 en stable
