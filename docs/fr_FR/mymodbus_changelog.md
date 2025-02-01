@@ -4,11 +4,16 @@
 - Traduction
 - Proposer un outil permettant de vérifier l'existence de registres avec différentes configurations de décodage des informations reçues.
 - Documentation :
-  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0 stable)
+  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0.1 bêta)
 
 ## Développement en cours dans la branche beta-dev pour la prochaine bêta
-- Utilisation de pymodbus V3.8.3
+- Aucun nouveau développement en cours
+
+## 01/02/2025 V3.0.1 bêta
+- Suppression du lien inutile vers la documentation depuis la configuration des équipements (préparation pour la mise en place de la traduction)
+- Utilisation de la dernière version de pymodbus : V3.8.3
 - Simplification de la page modale santé
+- Il est possible de créer un équipement de test qui va vérifier si les registres dans une certaine plage existent.
 
 ## 23/01/2025 V3.0 stable
 - Passage de la version 3.0 bêta63 en stable

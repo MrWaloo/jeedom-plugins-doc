@@ -61,7 +61,7 @@ capacités de votre machine.
 Il est fortement conseillé de désactiver la gestion automatique du démon durant l'installation afin que le démon ne
 soit pas démarré par Jeedom sans que MyModbus ne soit installé complètement.
 
-Ici, on peut constater que l'installation de MyModbus sur un Raspberry PI 3B peut durer vraiment longtemps :  
+Ici, on peut constater que l'installation de MyModbus bêta sur un Raspberry PI 3B peut durer vraiment longtemps :  
 ![Installation sur un Rasperry PI 3B](../images/mymodbus/Installation_RPI3B.png)
 
 Une fois l'installation terminée, la page de gestion du plugin MyModbus ressemblera à ceci :  
@@ -240,6 +240,28 @@ particulier, le port est le 502.
 
 Ce sont les mêmes paramètres qui sont à renseigner pour les connexions UDP ou RTUoverTCP.
 
+### Equipement de test de registres
+
+Si la case "Equipement destiné à tester l'existence des registres" est cochée, l'équipement fonctionne de manière
+singulière. Seule la commande action "Rafraîchir" est créée ainsi que les commandes info correspondant aux registres à
+tester.
+
+![Configuration de test](../images/mymodbus/Config_test.png)
+
+Le message est clair : lors de la sauvegarde de l'équipement, si l'équipement est activé, toutes les commandes seront
+supprimées sans demande de confirmation.
+
+Dans ce cas, toutes les commandes info sont systématiquement supprimées lors de la sauvegarde et les commandes nécessaires
+sont automatiquement créées. Ici un exemple qui correspond à la capture précédente :
+
+![Commandes de test](../images/mymodbus/Commandes_test.png)
+
+Si le démon est démarré et l'équipement activé, le test de la commande de rafraichissement lance un cycle de lecture des
+registres à tester.  
+Le résultat de la lecture des registres est affiché :
+
+![Résultat des test](../images/mymodbus/Résultat_test.png)
+
 ## Création et configuration des commandes
 
 > :bulb: ***Conseil***  
@@ -291,7 +313,7 @@ Si la commande correspond à un registre dans un esclave sur un bus série d'une
 une passerelle IP/série, vous devez renseigner l'adresse de l'esclave sur le bus Modbus. Sinon vous pouvez laisser "1".
 
 > :memo: ***Remarque***  
-> Sur l'ancienne version bêta, ce paramètre s'appelait "Unit ID" et était à configurer dans l'équipement.
+> Sur l'ancienne version du plugin, ce paramètre s'appelait "Unit ID" et était à configurer dans l'équipement.
 
 ### Fonction Modbus
 
