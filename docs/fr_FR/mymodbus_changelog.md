@@ -9,6 +9,9 @@
 ## Développement en cours dans la branche beta-dev pour la prochaine bêta
 - Aucun nouveau développement en cours
 
+## 02/02/2025 V3.0 stable --> Pas de mise à jour
+- Aucune modification, juste un répertoire inutilisé depuis longtemps supprimé du dépôt 
+
 ## 01/02/2025 V3.0.1 bêta
 - Suppression du lien inutile vers la documentation depuis la configuration des équipements (préparation pour la mise en place de la traduction)
 - Utilisation de la dernière version de pymodbus : V3.8.3
