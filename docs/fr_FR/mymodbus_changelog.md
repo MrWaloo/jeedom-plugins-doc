@@ -2,7 +2,6 @@
 
 ## TODO
 - Traduction
-- Proposer un outil permettant de vérifier l'existence de registres avec différentes configurations de décodage des informations reçues.
 - Documentation :
   - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0.1 bêta)
 
