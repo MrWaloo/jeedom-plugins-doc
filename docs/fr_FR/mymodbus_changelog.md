@@ -8,56 +8,58 @@
 ## Développement en cours dans la branche beta-dev pour la prochaine bêta
 - Aucun nouveau développement en cours
 
-## 06/02/2025 V3.0.1 bêta1
+## Changelog
+
+### 06/02/2025 V3.0.1 bêta1
 - Correction de la mauvaise valeur par défaut de l'équipement de test. Dorénavant, par défaut, l'équipement n'est pas un équipement de test. (merci ludoviclt)
 - Fonction d'envoi des nouvelles valeurs du démon à Jeedom revue
 - Correction de la fonction de nettoyage des anciens fichiers qui effaçait l'icône rtuovertcp à tord
 
-## 02/02/2025 V3.0 stable --> Pas de mise à jour
+### 02/02/2025 V3.0 stable --> Pas de mise à jour
 - Aucune modification, juste un répertoire inutilisé depuis longtemps supprimé du dépôt 
 
-## 01/02/2025 V3.0.1 bêta
+### 01/02/2025 V3.0.1 bêta
 - Suppression du lien inutile vers la documentation depuis la configuration des équipements (préparation pour la mise en place de la traduction)
 - Utilisation de la dernière version de pymodbus : V3.8.3
 - Simplification de la page modale santé
 - Il est possible de créer un équipement de test qui va vérifier si les registres dans une certaine plage existent.
 
-## 23/01/2025 V3.0 stable
+### 23/01/2025 V3.0 stable
 - Passage de la version 3.0 bêta63 en stable
 - Suppression du lien invalide vers une vidéo dans la description (24/01/2025)
 
-## 22/01/2025 V3.0 bêta63
+### 22/01/2025 V3.0 bêta63
 - Correction d'une erreur de syntaxe PHP qui empêchait le nettoyage des fichiers obsolètes
 
-## 03/01/2025 V3.0 bêta62
+### 03/01/2025 V3.0 bêta62
 - Petite modification pratique et purement esthétique : l'ID de l'équipement est affiché dans l'onglet
 
-## 19/12/2024 V3.0 bêta61
+### 19/12/2024 V3.0 bêta61
 - Un test d'égalité ou de différence avec une valeur (ou une chaine de caractères) est maintenant possible pour une commande info de sous-type binaire qui lit un registre (merci ludoviclt)
 
-## 07/12/2024 V3.0 bêta60
+### 07/12/2024 V3.0 bêta60
 - Correction d'une erreur qui empêchait l'import des commandes de lecture de plage de registres lors de l'utilisation d'un template (merci ludoviclt)
 
-## 09/11/2024 V3.0 bêta59
+### 09/11/2024 V3.0 bêta59
 - Vérification que la plage de registres source soit définie (merci ludoviclt)
 - Vérification de la version des modules installés
 
-## 07/11/2024 versions stable et bêta sans modification de version
+### 07/11/2024 versions stable et bêta sans modification de version
 - Mise à jour du lien vers la documentation
 
 Explications : [https://community.jeedom.com/t/evolutions-du-plugin-mymodbus-version-stable/133443](https://community.jeedom.com/t/evolutions-du-plugin-mymodbus-version-stable/133443)
 
-## 05/11/2024 V3.0 bêta58
+### 05/11/2024 V3.0 bêta58
 - Cas particulier d'extraction d'un bit de registre dans une plage de registres (merci Doud)
 
-## 03/11/2024 V3.0 bêta57
+### 03/11/2024 V3.0 bêta57
 - Outil de déplacement des commandes d'un équipement à un autre afin de garder les commandes lors d'un split d'équipement en
 cas d'utilisation de la même interface
 
-## 30/10/2024 V3.0 bêta56
+### 30/10/2024 V3.0 bêta56
 - Correction sur les fonctions d'écriture
 
-## 25/10/2024 V3.0 bêta55
+### 25/10/2024 V3.0 bêta55
 
 > :warning: ***Important***  
 > Une réinstallation des dépendances doit être faite sans quoi le démon MyModbus ne fonctionnera pas.  
@@ -65,17 +67,17 @@ cas d'utilisation de la même interface
 
 - Utilisation de pymodbus V3.7.4
 
-## 24/10/2024 V3.0 bêta54
+### 24/10/2024 V3.0 bêta54
 - Forçage de la version de pymodbus à 3.7.3
 
-## 16/10/2024 V3.0 bêta53
+### 16/10/2024 V3.0 bêta53
 - Mise à jour de jeedomdaemon (il faut relancer l'installation des dépendances)
 
-## 07/10/2024 V3.0 bêta52
+### 07/10/2024 V3.0 bêta52
 - Nouveauté : inversion des doubles-mots possible
 - Nouveauté : affichage de la configuration d'inversion en fonction du type de donnée
 
-## 05/10/2024 V3.0 bêta51
+### 05/10/2024 V3.0 bêta51
 - Nouveauté : utilisation de la même interface pour plusieurs équipements
 - Nouveauté : ajout d'une commande info 'Polling' qui contient le temps de polling recalculé actuel (si la commande n'existe pas,
 sauvegardez l'équipement)
@@ -89,20 +91,20 @@ de toutes les commandes info) s'est déroulé sans erreur
 - Structure du démon : la classe MyModbusConfig est écrite dans un fichier dédié
 - [ESSAI] Suppression effective de l'ancien répertoire 'ressources' (avec 2 S) qui n'est plus utilisé
 
-## 26/09/2024 V3.0 bêta50
+### 26/09/2024 V3.0 bêta50
 - Si les valeurs saisies dans la configuration commencent ou se terminent par des espaces, ceux-ci sont ignorés
 - Le polling n'est plus recalculé en cas d'erreur durant le cycle
 
-## 25/09/2024 V3.0 bêta49
+### 25/09/2024 V3.0 bêta49
 - Correction de l'erreur de syntaxe qui bloquait les écritures (merci wocha-fr)
 
-## 24/09/2024 V3.0 bêta48
+### 24/09/2024 V3.0 bêta48
 - Correction de la fonction eqLogic.getDeamonLaunchable (merci wocha-fr)
 - Correction du type d'un index de dictionnaire (merci wocha-fr)
 - Corrections de syntaxe (merci thomaspascal, Droopy et lperenna)
 - [ESSAI] Gestion correcte d'un temps d'attente après erreur plus long (quelques minutes)
 
-## 23/09/2024 V3.0 bêta47
+### 23/09/2024 V3.0 bêta47
 
 > :warning: ***Important***  
 > A partir de cette version, l'inversion des mots ne sera plus nécessaire si l'architecture du CPU est identique entre
@@ -113,22 +115,22 @@ Cela affecte les commandes info et action sur des variables d'au moins 32 bits.
 - Gestion interne du boutisme (endianess) et non plus via pymodbus
 - Suppression du double log en cas d'erreur de lecture
 
-## 22/09/2024 V3.0 bêta46
+### 22/09/2024 V3.0 bêta46
 - Vérification que la commande existe bien lorsqu'un changement de valeur est reçu pour éviter une erreur (merci thomaspascal)
 - Affichage du bouton "Supprimer" dans le viewer de template (merci thomaspascal)
 - Corrections pour les connexions série (merci wocha-fr)
 
-## 20/09/2024 V3.0 bêta45
+### 20/09/2024 V3.0 bêta45
 - Correction du problème avec les templates
 - Correction du problème avec l'ordre des mots d'une valeurs sur plus de 32 bits dans une plage de registres lorsque l'offset
 dans la plage de registres est impaire
 - Correction de la prise en charge du paramètre "port" pour les liaisons série
 
-## 19/09/2024 V3.0 bêta44
+### 19/09/2024 V3.0 bêta44
 - Prise en compte de la configuration d'inversion des octets et des mots pour les valeurs lues depuis une plage de registres
 (merci thomaspascal)
 
-## 18/09/2024 V3.0 bêta43
+### 18/09/2024 V3.0 bêta43
 - Optimisation du verrou qui permet les requêtes afin que les écritures puissent être faites plus rapidement
 - Vérification de l'état de la connexion avant chaque requête
 - Le polling peut être configuré à 0.01s minimum
@@ -136,7 +138,7 @@ dans la plage de registres est impaire
 - Le démon n'est pas "launchable" si le venv n'est pas présent
 - Suppression de l'ancien répertoire mal orthographié "ressources" (avec 2 S)
 
-## 17/09/2024 V3.0 bêta42
+### 17/09/2024 V3.0 bêta42
 
 > :warning: ***Important***  
 > 1. Avant de faire cette mise à jour, désactivez les équipements MyModbus. Faites une capture de la configuration des équipements
@@ -167,126 +169,126 @@ dans la documentation constructeur.
 - Suppression du format float16
 - Prise en compte de l'inversion des octets et des mots pour les chaînes de caractères
 
-## 17/06/2024 V3.0 bêta41
+### 17/06/2024 V3.0 bêta41
 - Correction d'une erreur de syntaxe (merci m.georgein)
 - Lors de l'exécution d'une commande action, il faut vérifier si l'équipement est actif avant d'envoyer la commande au démon
 
-## 03/05/2024 V3.0 bêta40
+### 03/05/2024 V3.0 bêta40
 - Correction de syntaxe sur des messages de log du démon (merci à Jean-Baptiste)
 
-## 15/04/2024 V3.0 bêta39
+### 15/04/2024 V3.0 bêta39
 - Correction de l'utilisation de la fonction `strtolower` (merci à Jean-Baptiste)
 
-## 14/03/2024 V3.0 bêta38
+### 14/03/2024 V3.0 bêta38
 - Logs un peu plus détaillés en mode debug
 
-## 11/03/2024 V3.0 bêta37
+### 11/03/2024 V3.0 bêta37
 - Amélioration de l'interaction avec pyenv
 
-## 08/03/2024 V3.0 bêta36
+### 08/03/2024 V3.0 bêta36
 - Amélioration de l'interaction avec pyenv
 
-## 06/03/2024 V3.0 bêta35
+### 06/03/2024 V3.0 bêta35
 - Initialisation de pyenv
 
-## 04/03/2024 V3.0 bêta34
+### 04/03/2024 V3.0 bêta34
 - Externalisation de pyenv dans un plugin dédié
 - Suppression du bouton dans la configuration du plugin pour supprimer le répertoire ressources/_pyenv
 
-## 21/02/2024 V3.0 bêta33
+### 21/02/2024 V3.0 bêta33
 - Ajout d'un bouton dans la configuration du plugin pour supprimer le répertoire ressources/_pyenv
 - Affichage de toute la config dans le visualisateur de template
 - Possibilité d'utiliser #value# dans le champ valeur d'une commande action pour faire référence à la valeur de la commande info liée
 
-## 17/02/2024 V3.0 bêta32
+### 17/02/2024 V3.0 bêta32
 - Correction pour que '0' puisse être écrit (merci à Doud)
 
-## 16/02/2024 V3.0 bêta31
+### 16/02/2024 V3.0 bêta31
 - Suppression du mode bi-maître qui ne fonctionne pas
 - Lors de la sauvegarde, si rien n'est précisé dans le champ valeur, définir avec `#slider#`, `#select#` ou `#color#` en fonction du cas, sinon invalider la config
 - Lors de la sauvegarde si `#slider#`, `#select#` ou `#color#`, en fonction du cas, n'est pas dans le champ valeur, avertir avec une erreur.
 - Invalider l'exécution d'une commande action si la valeur à écrire est vide
 
-## 14/02/2024 V3.0 bêta30 (mise à jour de la St Valentin)
+### 14/02/2024 V3.0 bêta30 (mise à jour de la St Valentin)
 - Le champ valeur est sauvegardé correctement
 
-## 12/02/2024 V3.0 bêta29
+### 12/02/2024 V3.0 bêta29
 - Ajout de la gestion de templates (documentation à mettre à jour)  
 Cette fonctionnalité est basée sur ce qui existe dans jMQTT
 - Révision du bandeau de menu de la configuration du plugin (page d'ajout des équipements)
 - Corrections de syntaxe
 
-## 09/01/2024 V3.0 bêta28
+### 09/01/2024 V3.0 bêta28
 - Correction du script post-install.sh pour mettre à jour pyenv même après la restauration d'un backup de Jeedom (merci à m.georgein)
 
-## 03/12/2023 V3.0 bêta27
+### 03/12/2023 V3.0 bêta27
 - Correction du script post-install.sh pour mettre à jour pyenv correctement avant d'installer python V3.11.6
 
-## 28/11/2023 V3.0 bêta26
+### 28/11/2023 V3.0 bêta26
 - Correction du script post-install.sh pour mettre à jour pyenv avant d'installer python V3.11.6 (merci ngm47)
 
-## 26/11/2023 V3.0 bêta25
+### 26/11/2023 V3.0 bêta25
 - Liste des paquets à installer réduite au minimum
 - Passage à python V3.11.6 sous pyenv. L'étape de réinstallation des dépendances va durer plusieurs dizaines de minutes.
 - Retour arrière sur une modification de la version V3.0 bêta24 : le fait que le démon soit "launchable" si plusieurs équipements utilisent le même port série
 - Mise à jour de la documentation
 - Ajout de la possibilité de personnaliser les interfaces série (idée de jmcaous trouvée sur le Community)
 
-## 08/11/2023 V3.0 bêta24
+### 08/11/2023 V3.0 bêta24
 - Correction erreur 500 à la sauvegarde d'un nouvel équipement (merci ksin)
 - Le démon est "launchable" si plusieurs équipements utilisent le même port série. Dans ce cas, c'est à l'utilisateur de configurer le plugin correctement (merci indirectement à ksin)
 - Petites corrections
 
-## 02/08/2023 V3.0 bêta23
+### 02/08/2023 V3.0 bêta23
 - Les listes sont gérées pour les binaires également
 - Les couleurs sont prises en compte
 
-## 14/07/2023 V3.0 bêta22
+### 14/07/2023 V3.0 bêta22
 - Le bouton d'ajout de commande en bas du tableau des commandes fonctionne dorénavant comme attendu
 - Les retours NaN sont correctement gérés
 
-## 06/06/2023 V3.0 bêta21
+### 06/06/2023 V3.0 bêta21
 - Forçage de la version pymodbus 3.2.2 pour éviter des erreurs avant de trouver une meilleure solution
 
-## 10/05/2023 V3.0 bêta20
+### 10/05/2023 V3.0 bêta20
 - Correction des logs des écritures en mode bi-maître
 - Ajout de la commande info liée aux commandes action
 - Ajout du bouton de création de commande en fin de tableau
 
-## 06/05/2023 V3.0 bêta19
+### 06/05/2023 V3.0 bêta19
 - Deuxième tentative du mode bi-maître spécifique aux chaudières De Dietrich Diematic (merci à loustic03 de m'avoir laissé autant de temps pour tester chez lui)
 
-## 05/05/2023 V3.0 bêta18
+### 05/05/2023 V3.0 bêta18
 - Prise en charge des commandes action avec une liste
 - Première tentative du mode bi-maître spécifique aux chaudières De Dietrich Diematic
 - Affichage de la configuration de l'endianess pour les commandes actions (merci à thomaspascal)
 - Indentation du code de tout le plugin avec 2 espaces au lieu de 4
 
-## 13/04/2023 V3.0 bêta17
+### 13/04/2023 V3.0 bêta17
 - Pour les commandes binaires depuis une plage de registres, les plages numériques en source sont possibles mais un filtre doit être spécifié (merci à Noyax37)
 
-## 10/04/2023 V3.0 bêta16
+### 10/04/2023 V3.0 bêta16
 - Petite correction sur le log lors de l'exécution d'une commande action
 
-## 09/04/2023 V3.0 bêta15
+### 09/04/2023 V3.0 bêta15
 - Amélioration de la saisie des commandes an désélectionnant les options invisibles (merci à Noyax37)
 - Remontée de la valeur lue vers Jeedom par le démon si la commande est configurée avec "Répéter les valeurs identiques" à "Oui" (merci Bison pour l'astuce)
 - Meilleure gestion des exceptions
 - Ajout du nom de l'équipement dans les logs du démon (là où c'est possible)
 
-## 07/04/2023 V3.0 bêta14
+### 07/04/2023 V3.0 bêta14
 - Les reconnexions automatiques de pymodbus sont désactivées. Les (re)connexions sont gérées par le démon (merci à thomaspascal)
 - En cas de sauvegarde de la configuration, le démon se déconnecte avant de prendre la nouvelle configuration en compte (merci à thomaspascal)
 - Maintien de l'ordre des commandes lors de la sauvegarde qui rajoute les commandes spéciales (merci à thomaspascal)
 - Correction de l'erreur lors de la duplication d'un équipement (merci à Noyax37)
 - Suppression des paramètres de configuration utilisés dans l'ancienne version (et donc le retour en version stable est rendu impossible sans restaurer un backup ou resaisir les configurations)
 
-## 05/04/2023 V3.0 bêta13
+### 05/04/2023 V3.0 bêta13
 - Contournement de l'erreur d'affichage des paramètres d'équipement (Solution en cours)
 - Correction de l'erreur lors de la duplication d'un équipement (merci à Noyax37)
 - Démon : si la lecture retourne 'nan', la valeur n'est pas remontée vers Jeedom et une erreur est générée (merci à ced2001)
 
-## 04/04/2023 V3.0 bêta12
+### 04/04/2023 V3.0 bêta12
 - Ajout du mode cyclique
 - Ajout du mode lecture sur événement
 - Le temps de polling minimum est maintenant de 1 seconde
@@ -295,14 +297,14 @@ Cette fonctionnalité est basée sur ce qui existe dans jMQTT
 - Remontée de la valeur lue vers Jeedom par le démon uniquement en cas de changement de valeur
 - Diverses optimisations
 
-## 29/03/2023 V3.0 bêta11
+### 29/03/2023 V3.0 bêta11
 - Correction de l'affichage du paramètre "adresse esclave" des commandes action (merci à Noyax37 et à pilou226)
 
-## 28/03/2023 (0:08) V3.0 bêta10
+### 28/03/2023 (0:08) V3.0 bêta10
 - Correction de l'erreur lors de l'écriture d'un binaire (merci à ngm47)
 - La pause suite à une commande action est cumulable avec l'écriture de la valeur d'une expression
 
-## 27/03/2023 (8:57) V3.0 bêta9
+### 27/03/2023 (8:57) V3.0 bêta9
 - Passer le niveau de log à la volée en cas de changement sans redémarrer le démon
 - Passer les modifications de configuration à la volée lors de la sauvegarde sans redémarrer le démon
 - Meilleure gestion de la communication entre le démon et les process PyModbusClient
@@ -311,7 +313,7 @@ Cette fonctionnalité est basée sur ce qui existe dans jMQTT
 - Seuls les équipements utilisant le protocole de connexion "serial" ne peuvent pas utiliser la même interface.  
 Les équipements en TCP ou UDP **peuvent** communiquer avec la même adresse IP, ça ne veut pas dire qu'ils le doivent.
 
-## 24/03/2023 V3.0 bêta8
+### 24/03/2023 V3.0 bêta8
 - Correction de la fonction de validation des adresses d'une plage de registres
 - Optimisation du temps de traitement des valeurs remontées par le démon
 - Gestion de la reconnexion en cas de déconnexion
@@ -319,23 +321,23 @@ Les équipements en TCP ou UDP **peuvent** communiquer avec la même adresse IP,
 - Permettre un temps d'attente avant la première requête (compatibilité avec Huawei SUN2000)
 - Validation de la configuration de sorte que deux équipements ne puissent pas utiliser la même connexion
 
-## 23/03/2023 V3.0 bêta7
+### 23/03/2023 V3.0 bêta7
 - Correction d'une erreur lors de la vérification des plages
 
-## 23/03/2023 V3.0 bêta6
+### 23/03/2023 V3.0 bêta6
 - Liste déroulante pour le choix de la plage de registres (documentation ok)
 
-## 21/03/2023 V3.0 bêta5
+### 21/03/2023 V3.0 bêta5
 - Lecture d'une plage d'adresses en une fois et assignation indirecte des commandes info :
 Version avec une configuration permettant une meilleure compatibilité
 
-## 19/03/2023 V3.0 bêta4
+### 19/03/2023 V3.0 bêta4
 - Lecture d'une plage d'adresses en une fois et assignation indirecte des commandes info (à documenter)
 
-## 17/03/2023 V3.0 bêta3
+### 17/03/2023 V3.0 bêta3
 - Correction du bug qui supprimait toutes les commandes au moment de sauvegarder la configuration d'un équipement
 
-## 16/03/2023 V3.0 bêta2
+### 16/03/2023 V3.0 bêta2
 - Correction de l'installation des dépendances
 - Logging au niveau paramétré dans Jeedom, même pour le démon
 - Ajout de l'ID dans les commandes
@@ -343,74 +345,74 @@ Version avec une configuration permettant une meilleure compatibilité
 - Possibilité de rajouter un temps d'attente après l'écriture d'une valeur fixe
 - Plus d'informations sont loggées en cas d'exception lors des lectures et écritures
 
-## 10/03/2023 V3.0 bêta1
+### 10/03/2023 V3.0 bêta1
 - Réécriture complète du plugin afin de gérer un maximum de modes et de formats de données
 
-## 08/03/2023 V2.3 stable
+### 08/03/2023 V2.3 stable
 - Passage de la version beta en stable, il faudra impérativement relancer les dépendances !
 - Par sécurité avant de faire la mise à jour, vous pouvez faire un backup de votre installation. 
 
-## 17/03/2021 V2.2.3 bêta
+### 17/03/2021 V2.2.3 bêta
 - ajout options dans la page de configuration pour redémarrer les démons si Nok 
 
-## 06/03/2021 V2.2.2 bêta
+### 06/03/2021 V2.2.2 bêta
 - ajout gestion du rtu (test) 
 
-## 07/02/2021 V2.2.0 bêta
+### 07/02/2021 V2.2.0 bêta
 - ajout gestion des démons 
 
-## 04/01/2021 V2.1.2 bêta
+### 04/01/2021 V2.1.2 bêta
 - ajout écriture multiples registers fonction 16 
 
-## 28/12/2020 V2.1.1 bêta
+### 28/12/2020 V2.1.1 bêta
 - Mise à jour du script d'écriture pour python 3 (version beta)
 
-## 22/06/2020 V2.1 bêta
+### 22/06/2020 V2.1 bêta
 - Ajout d'un mode pour la lecture des inputs_registers des compteurs de puissances Eastrom (version beta)
 
-## 01/06/2020 V2.0 bêta
+### 01/06/2020 V2.0 bêta
 - Passage en python3 nécessite une mise à jour des dépendances
 - Possibilité de filtrer directement des bits dans le plugin, sans passer par des virtuels
 - Ajout de la lecture de float et de int en holding register 
 
-## 09/04/2020 V1.4.stable
+### 09/04/2020 V1.4.stable
 - Mise à jour Logo ..... Merci alois.myard pour cette création 
 
-## 23/03/2020 V1.4.4
+### 23/03/2020 V1.4.4
 - mise à jour page configuration, ajout des équipements en paramètre.
 
-## 23/03/2020 V1.4.4
+### 23/03/2020 V1.4.4
 - Ajout page santé
 
-## 21/03/2020 V1.4.3
+### 21/03/2020 V1.4.3
 - Ajout configuration pour automate Wago 
 
-## 15/03/2020 V1.4.2
+### 15/03/2020 V1.4.2
 - Mise à jour du script des dépendances V1.3
 
-## 05/03/2020 V1.4.1
+### 05/03/2020 V1.4.1
 - Mise à jour du logo au standard officiel.
 
-## 23/02/2020 V1.4.0
+### 23/02/2020 V1.4.0
 - Ajout compatibilité Jeedom en V3.3 (suite test fais en V3.3)
 
-## 09/02/2020 V1.3.2
+### 09/02/2020 V1.3.2
 - Ajout Python PIP dans le script d'installation des dépendances. (Suite problème remonté sur Community par @hitaki)
 
-## 03/02/2020 V1.3.1
+### 03/02/2020 V1.3.1
 - Suppression du time out sur la gestion du port de com, car il entrainait des erreurs de lecture
 
-## 22/01/2020 V1.3
+### 22/01/2020 V1.3
 - Résolution du bug sur le retour des valeurs des équipements à IP commune.
 
-## 18/01/2020 V1.2 bêta
+### 18/01/2020 V1.2 bêta
 - Découverte d'un bug sur la lecture d'une même ip avec un unit différent. En cours de résolution 
 - correction du script d'écriture (ajour de l'unit id) essais sur un automate wago ok  
 
-## 28/12/2019 V1.1 stable
+### 28/12/2019 V1.1 stable
 - passage en stable (demande en cours) 
 
-## 14/01/2020 V1.2 bêta
+### 14/01/2020 V1.2 bêta
 - Correction bug sur sauvegarde
 - Mise à jour visuel commandes
 - Mise en service du NTP pour crouzet à 00h30 si activé
