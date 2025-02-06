@@ -12,6 +12,7 @@
 ## 06/02/2025 V3.0.1 bêta1
 - Correction de la mauvaise valeur par défaut de l'équipement de test. Dorénavant, par défaut, l'équipement n'est pas un équipement de test.
 - Fonction d'envoi des nouvelles valeurs du démon à Jeedom revue
+- Correction de la fonction de nettoyage des anciens fichiers qui effaçait l'icône rtuovertcp à tord
 
 ## 02/02/2025 V3.0 stable --> Pas de mise à jour
 - Aucune modification, juste un répertoire inutilisé depuis longtemps supprimé du dépôt 
