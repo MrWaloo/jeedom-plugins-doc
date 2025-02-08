@@ -1,7 +1,6 @@
 # Changelog MyModbus
 
 ## TODO
-- Traduction
 - Documentation :
   - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0.1 bêta)
 
@@ -12,6 +11,7 @@
 
 ### 08/02/2025 V3.0.1 bêta2
 - Corrections pour la fonction de test
+- Ajout de la traduction
 
 ### 06/02/2025 V3.0.1 bêta1
 - Correction de la mauvaise valeur par défaut de l'équipement de test. Dorénavant, par défaut, l'équipement n'est pas un équipement de test. (merci ludoviclt)
