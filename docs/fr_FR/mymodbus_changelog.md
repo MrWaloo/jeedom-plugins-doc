@@ -9,6 +9,9 @@
 
 ## Changelog
 
+> :warning: ATTENTION: 08/02/2025
+> Je fais des essais de traduction sur la version bêta, il se peut qu'il y ait des mises à jour non documentées ces prochains jours qui ne concernent que la traduction.
+
 ### 08/02/2025 V3.0.1 bêta2
 - Corrections pour la fonction de test
 - Ajout de la traduction
