@@ -186,7 +186,7 @@ commande info "Cycle OK" est passée à 0 et la prochaine requête est envoyée.
 La commande info "Cycle OK" repasse automatiquement à 1 dès qu'un cycle de lecture complet est fait sans erreur,
 c'est-à-dire une fois que toutes les commandes info nécessitant une requête de lecture sont sans erreur.
 
-"Temps entre 2 requêtes de lecture" est le temps d'attente entre la réception d'une réponse et l'envoie d'une nouvelle
+"Temps entre 2 requêtes de lecture" est le temps d'attente entre la réception d'une réponse et l'envoi d'une nouvelle
 requête. Ce temps peut être mis à 0 dans la plupart des cas, il est surtout utile pour des connexions lentes,
 typiquement des connexions série. Il faut savoir qu'un temps d'attente de 0.03 s est mis en place par le module
 pymodbus pour les connexions série. Ce temps se rajoute au temps d'attente du plugin.  
