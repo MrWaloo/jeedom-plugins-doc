@@ -26,6 +26,13 @@ et a un code de fonction : une valeur numérique codée sur un ou deux octets.
 Le protocole Modbus est basé sur une norme qui ne sera pas détaillée ici. Vous pouvez consulter le
 [site officiel](https://modbus.org/specs.php) (cliquez sur "I ACCEPT").
 
+En gros, le modbus donne accès à des cases mémoires qui ont une adresse. Les cases font toutes 16 bits et le type de
+données stockée est variable.  
+Ca peut être une valeur entière relative (= signée) int16 (integer 16 bit), une valeur entière absolue (= non signée
+et donc que positive) uint16 (unsigned integer 16 bit). Ces valeurs sont donc codées sur un seul registre.  
+Ca peut être une valeur codée sur 2 registres ou plus en fonction des cas. MyModbus propose le décodage de plusieurs
+formats.
+
 ## Organisation de la mémoire
 
 Dans tout appareil équipé de mémoire, celle-ci est organisée par adresses. Les adresses de registres accessibles via
