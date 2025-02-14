@@ -12,6 +12,7 @@
 ### 14/02/2025 V3.0.1 bêta3
 - Corrections pour la fonction de test
 - Traduction fonctionnelle
+- Simplification de la ligne de commande. La configuration n'est plus passée sur la ligne de commande du démon mais est envoyée par la suite.
 
 ### 08/02/2025 V3.0.1 bêta2
 - Corrections pour la fonction de test
