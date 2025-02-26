@@ -8,6 +8,9 @@ communiquer en :
 
 Il est compatible avec plusieurs types d’appareil (automate, chaudière, VMC, onduleur, …).
 
+A la fin de cette page se trouvent les instructions à respecter pour poser une question sur le
+[community de Jeedom](https://community.jeedom.com/).
+
 ## Modbus ?
 
 Un esclave Modbus est un appareil qui met à disposition des registres en lecture et/ou en écriture. Il existe des
@@ -499,3 +502,39 @@ Exemple d'erreur sur la configuration de l'équipement 'Equipement MyModbus' :
 
 Exemple d'erreur sur la configuration de la commande 'Température extérieure' :  
 ![Erreur sur une commande](../images/mymodbus/Erreur_commande.png)
+
+# En cas de problème
+
+En cas de problème d'utilisation du plugin, vous pouvez poster sur le [community de Jeedom](https://community.jeedom.com/).
+En précisant l'étiquette `#plugin-mymodbus` je serai prévenu, inutile de me tagger. Je consulte régulièrement le community,
+vous ne devriez donc pas attendre trop longtemps pour avoir une réponse.
+
+## Problème d'installation du plugin
+
+Dans votre post, il faut poster :
+- une capture de la page santé de Jeedom,
+- le contenu du log `mymodbus_update`,
+- le contenu du log `mymodbus` en mode debug.
+
+Et bien évidemment mettre un maximum d'informations.
+
+## Problème d'utilisation
+
+Si vous n'arrivez pas à vos fins et que vous avez besoin d'aide pour la configuration de MyModbus, assurez-vous d'avoir la
+dernière version stable ou bêta selon votre choix.
+
+Commencez un nouveau fil de discussion en précisant l'étiquette `#plugin-mymodbus` et donnez :
+- un maximum de détail sur le matériel et ce que vous souhaitez faire,
+- la documentation des registres Modbus,
+- la configuration de l'équipement et des commandes soit avec des captures, soit avec un export du template,
+- les essais que vous avez faits,
+- les résultats de ces essais avec les log `mymodbus` et surtout `mymodbus_daemon` en mode debug correspondant.
+
+Ca fait beaucoup de choses, mais sans tout cela, il est difficile de vous venir en aide.
+
+## Problème du plugin
+
+Il se peut que le plugin ne fonctionne pas correctement, dans ce cas, il vous est possible de rapporter les erreurs sur le
+[community de Jeedom](https://community.jeedom.com/) dans un fil de discussion dédié ou de poster une *issue* sur le
+[dépôt github de MyModbus](https://github.com/MrWaloo/jeedom-mymodbus).  
+Libre à vous de proposer ou non une PR de correction que j'étudierai.
