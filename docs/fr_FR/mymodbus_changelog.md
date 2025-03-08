@@ -9,6 +9,11 @@
 
 ## Changelog
 
+### 08/03/2025 V3.0.1 bêta4
+- Utilisation de la dernière version de pymodbus, la version V3.8.6
+- Filtrage des valeurs nan (Not A Number) : si une valeur lue est nan alors cette valeur n'est pas remontée vers Jeedom
+- [BUGFIX] La fonction de classe sendNewConfig est déclarée comme étant static
+
 ### 14/02/2025 V3.0.1 bêta3
 - Corrections pour la fonction de test
 - Traduction fonctionnelle
