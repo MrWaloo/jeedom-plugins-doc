@@ -9,6 +9,10 @@
 
 ## Changelog
 
+### 21/03/2025 V3.0.1 bêta5
+- Correction de la syntaxe pour les valeurs nan (Not A Number)
+- Correction de l'écriture des commandes action d'un équipement utilisant l'interface d'un autre équipement
+
 ### 08/03/2025 V3.0.1 bêta4
 - Utilisation de la dernière version de pymodbus, la version V3.8.6
 - Filtrage des valeurs nan (Not A Number) : si une valeur lue est nan alors cette valeur n'est pas remontée vers Jeedom
