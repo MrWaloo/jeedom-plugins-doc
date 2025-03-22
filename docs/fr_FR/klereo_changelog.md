@@ -5,6 +5,11 @@
 - Créer un widget
 - Permettre de modifier les plages horaires du mode 'Plage' pour les sorties qui peuvent être pilotées dans ce mode
 
+## 23/03/2025 V1.0.2 bêta
+
+- Détection des maintenance du site sans erreur dans les log
+- Suppression de la page santé qui indiquait la santé de MyModbus
+
 ## 25/01/2025 V1.0.1 stable
 
 La version bêta devient stable, les deux versions sont alignées
