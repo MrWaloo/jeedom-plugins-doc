@@ -70,8 +70,6 @@ Sont aussi communiquées, le cas échéant :
 - la consommation de chlore liquide totale,
 - la durée d'injection de chlore liquide du jour,
 - la durée d'injection de chlore liquide totale,
-- la consommation de chlore du jour,
-- la consommation de chlore totale,
 - la durée de chauffage du jour,
 - la durée de chauffage total.
 
