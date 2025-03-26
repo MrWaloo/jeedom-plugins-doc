@@ -7,7 +7,7 @@
 
 ## 26/03/2025 V1.0.2 bêta 1
 
-- La consommation de chlore liquide du jour et totale sont à nouveau disponibles pour les bassins avec un mode de désinfection non hybride (bidon de chlore) (merci deolisa)
+- Les consommations de chlore liquide du jour et totale sont à nouveau disponibles pour les bassins avec un mode de désinfection non hybride (bidon de chlore) (merci deolisa)
 
 ## 23/03/2025 V1.0.2 bêta
 
