@@ -9,6 +9,9 @@
 
 ## Changelog
 
+### 05/04/2025 V3.0.1 bêta6
+- Corrections pour la fonction de test
+
 ### 21/03/2025 V3.0.1 bêta5
 - Correction de la syntaxe pour les valeurs nan (Not A Number)
 - Correction de l'écriture des commandes action d'un équipement utilisant l'interface d'un autre équipement
