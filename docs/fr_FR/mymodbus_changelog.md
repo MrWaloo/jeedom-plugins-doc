@@ -12,7 +12,7 @@
 
 ### 13/04/2025 V3.0.1 stable
 - Passage de la version 3.0.1 bêta6 en stable
-- Les 2 branches sont allignées
+- Les 2 branches sont alignées
 
 ### 05/04/2025 V3.0.1 bêta6
 - Corrections pour la fonction de test
