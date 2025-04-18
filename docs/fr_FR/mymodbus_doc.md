@@ -143,7 +143,7 @@ existent.
 
 ## Création d'un équipement 
 
-C'est la première étape. Sans équipement, le démon n'est pas démarré. Après l'installation, la configuration est vide :  
+C'est la première étape. Après l'installation, la configuration est vide :  
 ![Configuration vide](../images/mymodbus/Configuration_vide.png)
 
 En cliquant sur "Ajouter", vous êtes invité à donner le nom de votre équipement et à sélectionner le template. Pour la
@@ -286,8 +286,6 @@ Le résultat de la lecture des registres est affiché :
 > De manière générale, il vaut mieux revoir la configuration complète en détail.
 
 Après la création d'un équipement, la liste des commandes est vide (à part les 4 commandes créées par le plugin).
-Tant que cette liste sera vide, le démon ne pourra pas être lancé et MyModbus génèrera une erreur si l'équipement est
-sauvegardé quand il est activé et que la liste des commandes est vide.
 
 Pour créer une nouvelle commande, il faut cliquer sur le bouton "Ajouter une commande". La nouvelle commande est ajoutée
 à la fin de la liste et peut être déplacée avec un cliquer-déplacer.

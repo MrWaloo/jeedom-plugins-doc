@@ -2,13 +2,16 @@
 
 ## TODO
 - Documentation :
-  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0.1)
+  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0.2)
 
 ## Développement en cours dans la branche beta-dev pour la prochaine bêta
 - Utilisation de la version 3.9.x de pymodbus
-- Permettre le lancement du démon même sans équipement actif pour valider l'installation des dépendances
 
 ## Changelog
+
+### 19/04/2025 V3.0.2 bêta
+- Lancement du démon permis même sans équipement actif pour valider l'installation des dépendances
+- Sauvegarde des équipements en cas de mise à jour du plugin
 
 ### 13/04/2025 V3.0.1 stable
 - Passage de la version 3.0.1 bêta6 en stable
