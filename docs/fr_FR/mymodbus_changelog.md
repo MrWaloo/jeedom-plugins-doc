@@ -9,6 +9,10 @@
 
 ## Changelog
 
+### 07/05/2025 V3.0.2 stable
+- Passage de la version 3.0.2 bêta en stable
+- Les 2 branches sont alignées
+
 ### 19/04/2025 V3.0.2 bêta
 - Lancement du démon permis même sans équipement actif pour valider l'installation des dépendances
 - Sauvegarde des équipements en cas de mise à jour du plugin
