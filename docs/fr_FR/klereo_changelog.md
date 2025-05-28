@@ -5,33 +5,43 @@
 - Créer un widget
 - Permettre de modifier les plages horaires du mode 'Plage' pour les sorties qui peuvent être pilotées dans ce mode
 
-## 07/05/2025 V1.0.3 bêta
+## V1.0.3
+
+### 07/05/2025 bêta1
+
+- Mise à jour version d'API
+
+### 07/05/2025 bêta
 
 - Détection des maintenances du site sans erreur dans les log (deuxième test)
 
-## 20/04/2025 V1.0.2 stable
+## V1.0.2
+
+### 20/04/2025 stable
 
 La version bêta devient stable, les deux versions sont alignées
 
-## 27/03/2025 V1.0.2 bêta 2
+### 27/03/2025 bêta 2
 
 - Traduction
 
-## 26/03/2025 V1.0.2 bêta 1
+### 26/03/2025 bêta 1
 
 - Les consommations de chlore liquide du jour et totale sont à nouveau disponibles pour les bassins avec un mode de désinfection non hybride (bidon de chlore) (merci deolisa)  
 Il faudra juste sauvegarder l'équipement pour créer les commandes manquantes.
 
-## 23/03/2025 V1.0.2 bêta
+### 23/03/2025 bêta
 
 - Détection des maintenances du site sans erreur dans les log
 - Suppression de la page santé qui indiquait la santé de MyModbus
 
-## 25/01/2025 V1.0.1 stable
+## V1.0.1
+
+### 25/01/2025 stable
 
 La version bêta devient stable, les deux versions sont alignées
 
-## 30/12/2024 V1.0.1 beta2
+### 30/12/2024 beta2
 
 - Mise à jour du lien vers la documentation
 
@@ -41,7 +51,9 @@ La version bêta devient stable, les deux versions sont alignées
 - Correction du message d'alerte si plusieurs alertes sont présentes. Maintenant toutes les alertes apparaitront et pas seulement la
 dernière de la liste de l'API
 
-## 08/10/2024 V1.0 stable
+## V1.0
+
+### 08/10/2024 stable
 
 La version bêta devient stable, les deux versions sont alignées
 
