@@ -7,7 +7,7 @@
 
 ## V1.0.3
 
-### 07/05/2025 bêta1
+### 28/05/2025 bêta1
 
 - Mise à jour version d'API
 
