@@ -11,6 +11,11 @@
 
 ### V3.0.3
 
+#### 07/06/2025 bêta1
+
+- Optimisation de l'utilisation de la mémoire
+- Correction d'un message d'erreur
+
 #### 28/05/2025 bêta
 
 - Mise à jour de la configuration du démon en cas de désactivation ou activation d'un équipement par scénario (merci Marp30 et Noyax37)
@@ -62,7 +67,7 @@
 
 #### 06/02/2025 bêta1
 
-- Correction de la mauvaise valeur par défaut de l'équipement de test. Dorénavant, par défaut, l'équipement n'est pas un équipement de test. (merci ludoviclt)
+- Correction de la mauvaise valeur par défaut de l'équipement de test. Dorénavant, par défaut, l'équipement n'est pas un équipement de test (merci ludoviclt)
 - Fonction d'envoi des nouvelles valeurs du démon à Jeedom revue
 - Correction de la fonction de nettoyage des anciens fichiers qui effaçait l'icône rtuovertcp à tord
 
