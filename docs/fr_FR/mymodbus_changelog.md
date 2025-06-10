@@ -2,7 +2,7 @@
 
 ## TODO
 - Documentation :
-  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0.2)
+  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0.3)
 
 ## Développement en cours dans la branche beta-dev pour la prochaine bêta
 - Utilisation de la version 3.9.x de pymodbus
@@ -10,6 +10,12 @@
 ## Changelog
 
 ### V3.0.3
+
+#### 10/06/2025 stable
+
+- Passage de la version 3.0.3 bêta1 en stable
+- Les 2 branches sont alignées
+- Intégration de 2 templates (merci wocha-fr)
 
 #### 07/06/2025 bêta1
 
