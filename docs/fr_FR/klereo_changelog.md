@@ -7,6 +7,10 @@
 
 ## V1.0.3
 
+### 14/06/2025 bêta2
+
+- Détection des maintenances du site sans erreur dans les log (troisième test)
+
 ### 28/05/2025 bêta1
 
 - Mise à jour version d'API
