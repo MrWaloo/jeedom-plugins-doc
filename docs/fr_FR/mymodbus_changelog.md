@@ -9,6 +9,12 @@
 
 ## Changelog
 
+### V3.0.4
+
+#### 18/06/2025 bêta
+
+- Correction d'un problème d'affichage de la liste des équipements dont l'interface est utilisable comme interface partagée (merci thomaspascal)
+
 ### V3.0.3
 
 #### 10/06/2025 stable
