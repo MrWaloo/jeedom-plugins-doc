@@ -11,7 +11,7 @@
 
 ### V3.0.4
 
-#### 11/07/2025 stable
+#### 12/07/2025 stable
 
 - Passage de la version 3.0.4 bêta en stable
 - Les 2 branches sont alignées
