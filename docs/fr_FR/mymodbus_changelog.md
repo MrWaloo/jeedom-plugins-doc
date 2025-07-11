@@ -11,6 +11,11 @@
 
 ### V3.0.4
 
+#### 11/07/2025 stable
+
+- Passage de la version 3.0.4 bêta en stable
+- Les 2 branches sont alignées
+
 #### 18/06/2025 bêta
 
 - Correction d'un problème d'affichage de la liste des équipements dont l'interface est utilisable comme interface partagée (merci thomaspascal)
