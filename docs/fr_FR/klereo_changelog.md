@@ -7,6 +7,10 @@
 
 ## V1.0.3
 
+### 12/07/2025 bêta3
+
+- Détection des maintenances du site sans erreur dans les log (4ème test)
+
 ### 14/06/2025 bêta2
 
 - Détection des maintenances du site sans erreur dans les log (troisième test)
