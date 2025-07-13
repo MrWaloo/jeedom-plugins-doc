@@ -11,7 +11,7 @@
 
 ### V3.0.5
 
-#### 13/05/2025 bêta
+#### 13/07/2025 bêta
 
 - Correction du problème qui obligeait une seconde sauvegarde de l'équipement pour la prise en compte des modifications des commandes (merci Mips)
 
