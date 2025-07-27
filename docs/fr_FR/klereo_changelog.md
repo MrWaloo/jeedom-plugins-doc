@@ -7,6 +7,10 @@
 
 ## V1.0.3
 
+### 27/07/2025 stable
+
+La version bêta devient stable, les deux versions sont alignées
+
 ### 12/07/2025 bêta3
 
 - Détection des maintenances du site sans erreur dans les log (4ème test)
