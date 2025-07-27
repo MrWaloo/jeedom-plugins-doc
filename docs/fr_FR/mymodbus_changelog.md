@@ -2,7 +2,7 @@
 
 ## TODO
 - Documentation :
-  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0.3)
+  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0.5)
 
 ## Développement en cours dans la branche beta-dev pour la prochaine bêta
 - Pas de développement en cours
@@ -11,12 +11,7 @@
 
 ### V3.0.5
 
-#### 27/07/2025 stable
-
-- Passage de la version 3.0.5 bêta en stable
-- Les 2 branches sont alignées
-
-#### 19/07/2025 bêta1
+#### 27/07/2025 bêta1
 
 - Utilisation de la dernière version de pymodbus, la version V3.9.2
 - Intégration de la bonne licence GPL et non pas AGPL
