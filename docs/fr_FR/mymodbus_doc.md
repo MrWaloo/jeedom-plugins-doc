@@ -13,10 +13,10 @@ A la fin de cette page se trouvent les instructions à respecter pour poser une 
 
 ## Modbus ?
 
-Un esclave Modbus est un appareil qui met à disposition des registres en lecture et/ou en écriture. Il existe des
+Un serveur Modbus est un appareil qui met à disposition des registres en lecture et/ou en écriture. Il existe des
 registres binaires de un bit et des registres numériques de 16 bits.
 
-Initialement prévu pour la communication avec les automates Modicon(R), le prorocol Modbus permet d'effectuer un
+Initialement prévu pour la communication avec les automates Modicon(R), le protocol Modbus permet d'effectuer un
 certain nombre de requêtes de lecture ou d'écriture dans des zones mémoire différentes :
 - la zone des entrées : en lecture seule (on ne peut pas réécrire l'état d'une entrée automate)
 - la zone des sorties et de la mémoire interne : en lecture/écriture
@@ -112,9 +112,9 @@ Pour chaque équipement, il faut préciser le type de connexion ainsi que les pa
 
 > :memo: ***Remarque***  
 > Si vous avez plusieurs appareils en Modbus série et que vous communiquez avec ces appareils via la même interface, il
-> faut alors ne déclarer qu'un seul équipement MyModbus et spécifier l'adresse esclave de l'appareil dans les
+> faut alors ne déclarer qu'un seul équipement MyModbus et spécifier l'ID de l'appareil serveur dans les
 > commandes. D'autres équipements qui utilisent la connexion de cet équipement peuvent être créés pour lire les autres
-> esclaves.
+> serveurs.
 
 Pour chaque commande, il faut préciser les type et sous-type Jeedom ainsi que les paramètres de la requête Modbus.
 
@@ -163,15 +163,16 @@ configuration.
 MyModbus gère quatres protocoles de connexion et la connexion partagée :
 - **serial** (série) : à choisir pour un équipement communiquant via une liaison série (RS232, RS485, RS422, ...)
 *directement* avec votre machine Jeedom. Un seul équipement est défini dans MyModbus pour chaque interface série,
-même si plusieurs esclaves se trouvent sur le bus série. L'adresse de l'esclave est à renseigner dans les commandes.
+même si plusieurs serveurs (avec chacun son ID) se trouvent sur le bus série. L'ID du serveur est à renseigner dans les
+commandes.
 - **tcp**, **udp** et **rtuovertcp** : Connexion via le réseau Ethernet
 - **Interface d'un autre équipement** : Permet d'utiliser la connexion définie dans un autre équipement si l'appareil
 ne supporte pas plusieurs connexions simultanées depuis la même source.
 
 > :warning: ***Important***  
 > Si vous avez des appareils Modbus reliés à une paserelle IP/série et que votre machine Jeedom communique avec la
-> passerelle, il faudra choisir une liaison réseau et configurer la liaison vers la passerelle. Dans ce cas l'adresse
-> de l'esclave doit être renseignée dans les commandes.
+> passerelle, il faudra choisir une liaison réseau et configurer la liaison vers la passerelle. Dans ce cas l'ID
+> du serveur doit être renseigné dans les commandes.
 
 > :memo: ***Remarque***  
 > Le module pymodbus gère la connexion et la rétablit si elle est perdue.
@@ -315,10 +316,10 @@ Pour **les commandes action**, les cinq sous-types proposés par Jeedom peuvent 
 | int, uint ou float   | Défaut / curseur |
 | chaine de caractères | Défaut / message |
 
-### Adresse esclave
+### ID du serveur
 
-Si la commande correspond à un registre dans un esclave sur un bus série d'une connexion série directe ou derrière
-une passerelle IP/série, vous devez renseigner l'adresse de l'esclave sur le bus Modbus. Sinon vous pouvez laisser "1".
+Si la commande correspond à un registre dans un serveur sur un bus série d'une connexion série directe ou derrière
+une passerelle IP/série, vous devez renseigner l'ID du serveur sur le bus Modbus. Sinon vous pouvez laisser "1".
 
 > :memo: ***Remarque***  
 > Sur l'ancienne version du plugin, ce paramètre s'appelait "Unit ID" et était à configurer dans l'équipement.
@@ -334,7 +335,7 @@ courage !).
 > fonction de la commande après avoir modifié le type ou le sous-type. Si vous oubliez, la vérification au moment de
 > l'enregistrement génèrera une erreur et invalidera la sauvegarde.
 
-### Codage du registre et adresse Modbus
+### Codage du registre et adresse des registres Modbus
 
 Pour comprendre cette partie, il faut un peu de théorie :  
 > Les registres sont des mots de 16 bits. Les variables sont codées sur un ou plusieurs registres en fonction de leur

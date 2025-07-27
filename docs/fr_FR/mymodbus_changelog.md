@@ -5,7 +5,10 @@
   - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0.5)
 
 ## Développement en cours dans la branche beta-dev pour la prochaine bêta
-- Pas de développement en cours
+- Utilisation de la dernière version de pymodbus, la version V3.10.0 sortie le 27/07/2025
+- Utilisation de la bonne terminologie :
+    - client/serveur au lieu de esclave/maître
+    - ID au lieu d'adresse esclave
 
 ## Changelog
 
