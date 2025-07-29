@@ -1,18 +1,25 @@
 # Changelog MyModbus
 
-## TODO
-- Documentation :
-  - Documenter les nouvelles fonctionnalités (documentation à jour avec la version V3.0.5)
+## Documentation
 
-## Développement en cours dans la branche beta-dev pour la prochaine bêta
-- Utilisation de la dernière version de pymodbus, la version V3.10.0 sortie le 27/07/2025
-- Utilisation de la bonne terminologie :
-    - client/serveur au lieu de esclave/maître
-    - ID au lieu d'adresse esclave
+Documentation à jour avec la version V3.0.5 bêta2.
+
+## Développement en cours dans une branche beta-dev* pour la prochaine bêta
+
+- Pas de développement lourd en cours
 
 ## Changelog
 
 ### V3.0.5
+
+#### 30/07/2025 bêta2
+
+- Utilisation de la dernière version de pymodbus, la version V3.10.0 sortie le 27/07/2025
+- Utilisation de la bonne terminologie (programme, UI et documentation) (merci GTBuilder) :
+    - client/serveur au lieu de esclave/maître
+    - ID au lieu d'adresse esclave
+- Ajout de la possibilité de préciser l'ID du serveur à utiliser pour toutes les commandes d'un équipement dans la configuration de l'équipement (merci GTBuilder)
+- Correction d'un problème d'affichage minime et sans aucune incidence (personne ne remarquera...)
 
 #### 27/07/2025 bêta1
 
