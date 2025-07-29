@@ -83,10 +83,10 @@ MyModbus lance un démon écrit en Python qui utilise le module [pymodbus](https
 Dans la documentation de pymodbus, on peut voir que la version minimale requise pour pouvoir l'utiliser est
 Python3, de préférence la version 3.11, ne vous inquiétez pas, ce point est géré quelle que soit la version installée
 sur votre machine Jeedom.  
-Dans la mesure du possible MyModbus utilisera la dernière version de pymodbus.
+Dans la mesure du possible MyModbus utilisera la dernière version stable de pymodbus.
 
 Un jour, j'ai développé le plugin pyenv4Jeedom pour gérer l'installation de la bonne version de python. Ce plugin est
-abandonné et peut être désinstallé. MyModbus utilise une bibliothèque développée par Mips, nebz et TiTiDom pour faire
+abandonné et peut être désinstallé. MyModbus utilise des bibliothèques développées par Mips, nebz et TiTiDom pour faire
 la même chose. Tout est transparent pour l'utilisateur.
 
 ***
@@ -118,8 +118,11 @@ Pour chaque équipement, il faut préciser le type de connexion ainsi que les pa
 
 Pour chaque commande, il faut préciser les type et sous-type Jeedom ainsi que les paramètres de la requête Modbus.
 
-Le fait de sauvegarder la configuration lance une validation. Si la configuration est valide, la configuration du
-démon est actualisée.
+Il est possible de configurer l'ID pour toutes les commandes de l'équipement en cochant la case "ID du serveur
+identique à toutes les commandes" et en précisant l'ID.
+
+Le fait de sauvegarder la configuration lance une validation. Si la configuration est valide, la configuration de
+l'équipement est effectivement sauvegardée et le démon est actualisé s'il est démarré.
 
 La configuration se fait via Plugins / Protocole domotique / MyModbus :  
 ![Accès à la configuration](../images/mymodbus/Menu_configuration.png)
@@ -262,13 +265,13 @@ tester.
 Le message est clair : lors de la sauvegarde de l'équipement, si l'équipement est activé, toutes les commandes seront
 supprimées sans demande de confirmation.
 
-Dans ce cas, toutes les commandes info sont systématiquement supprimées lors de la sauvegarde et les commandes nécessaires
-sont automatiquement créées. Ici un exemple qui correspond à la capture précédente :
+Dans ce cas, toutes les commandes info sont systématiquement supprimées lors de la sauvegarde et les commandes
+nécessaires sont automatiquement créées. Ici un exemple qui correspond à la capture précédente :
 
 ![Commandes de test](../images/mymodbus/Commandes_test.png)
 
-Si le démon est démarré et l'équipement activé, le test de la commande de rafraichissement lance un cycle de lecture des
-registres à tester.  
+Si le démon est démarré et l'équipement activé, le test de la commande de rafraichissement lance un cycle de lecture
+des registres à tester.  
 Le résultat de la lecture des registres est affiché :
 
 ![Résultat des test](../images/mymodbus/Résultat_test.png)
@@ -288,8 +291,8 @@ Le résultat de la lecture des registres est affiché :
 
 Après la création d'un équipement, la liste des commandes est vide (à part les 4 commandes créées par le plugin).
 
-Pour créer une nouvelle commande, il faut cliquer sur le bouton "Ajouter une commande". La nouvelle commande est ajoutée
-à la fin de la liste et peut être déplacée avec un cliquer-déplacer.
+Pour créer une nouvelle commande, il faut cliquer sur le bouton "Ajouter une commande". La nouvelle commande est
+ajoutée à la fin de la liste et peut être déplacée avec un cliquer-déplacer.
 
 Vous pouvez commencer par donner un nom à la commande et définir s'il s'agit d'une commande info ou action. Si une
 commande n'a pas de nom, la configuration n'est pas enregistrée.
@@ -494,7 +497,7 @@ Au moment de la sauvegarde d'un équipement et de ses commandes, la cohérence d
 d'erreur, la sauvegarde est invalidée et un message apparaît avec l'erreur.  
 La première ligne du message correspond au nom de l'équipement si l'erreur est sur l'équipement ou au nom de la
 commande qui a une erreur. Les messages sont assez explicites et les erreurs doivent être corrigées pour que la
-sauvegarde soit faite.
+sauvegarde soit possible.
 
 Exemple d'erreur sur la configuration de l'équipement 'Equipement MyModbus' :  
 ![Erreur sur un équipement](../images/mymodbus/Erreur_equipement.png)
@@ -502,11 +505,22 @@ Exemple d'erreur sur la configuration de l'équipement 'Equipement MyModbus' :
 Exemple d'erreur sur la configuration de la commande 'Température extérieure' :  
 ![Erreur sur une commande](../images/mymodbus/Erreur_commande.png)
 
+# Templates
+
+Si vous pensez avoir un template interessant pour d'autres utilisateurs Jeedom qui auraient le même appareil que vous,
+vous pouvez :
+- le proposer sur le [community de Jeedom](https://community.jeedom.com/) en précisant l'étiquette `#plugin-mymodbus`
+pour que je sois prévenu,
+- faire une PR sur le [dépôt github de MyModbus](https://github.com/MrWaloo/jeedom-mymodbus).  
+
+De cette manière la bibliothèque s'étoffera.
+
 # En cas de problème
 
-En cas de problème d'utilisation du plugin, vous pouvez poster sur le [community de Jeedom](https://community.jeedom.com/).
-En précisant l'étiquette `#plugin-mymodbus` je serai prévenu, inutile de me tagger. Je consulte régulièrement le community,
-vous ne devriez donc pas attendre trop longtemps pour avoir une réponse.
+En cas de problème d'utilisation du plugin, vous pouvez poster sur le
+[community de Jeedom](https://community.jeedom.com/).
+En précisant l'étiquette `#plugin-mymodbus` je serai prévenu, inutile de me tagger. Je consulte régulièrement le
+community, vous ne devriez donc pas attendre trop longtemps pour avoir une réponse.
 
 ## Problème d'installation du plugin
 
@@ -519,8 +533,8 @@ Et bien évidemment mettre un maximum d'informations.
 
 ## Problème d'utilisation
 
-Si vous n'arrivez pas à vos fins et que vous avez besoin d'aide pour la configuration de MyModbus, assurez-vous d'avoir la
-dernière version stable ou bêta selon votre choix.
+Si vous n'arrivez pas à vos fins et que vous avez besoin d'aide pour la configuration de MyModbus, assurez-vous d'avoir
+la dernière version stable ou bêta selon votre choix.
 
 Commencez un nouveau fil de discussion en précisant l'étiquette `#plugin-mymodbus` et donnez :
 - un maximum de détail sur le matériel et ce que vous souhaitez faire,
@@ -533,7 +547,7 @@ Ca fait beaucoup de choses, mais sans tout cela, il est difficile de vous venir 
 
 ## Problème du plugin
 
-Il se peut que le plugin ne fonctionne pas correctement, dans ce cas, il vous est possible de rapporter les erreurs sur le
-[community de Jeedom](https://community.jeedom.com/) dans un fil de discussion dédié ou de poster une *issue* sur le
+Il se peut que le plugin ne fonctionne pas correctement, dans ce cas, il vous est possible de rapporter les erreurs sur
+le [community de Jeedom](https://community.jeedom.com/) dans un fil de discussion dédié ou de poster une *issue* sur le
 [dépôt github de MyModbus](https://github.com/MrWaloo/jeedom-mymodbus).  
 Libre à vous de proposer ou non une PR de correction que j'étudierai.
