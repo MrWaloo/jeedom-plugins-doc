@@ -505,6 +505,8 @@ Exemple d'erreur sur la configuration de l'équipement 'Equipement MyModbus' :
 Exemple d'erreur sur la configuration de la commande 'Température extérieure' :  
 ![Erreur sur une commande](../images/mymodbus/Erreur_commande.png)
 
+***
+
 # Templates
 
 Si vous pensez avoir un template interessant pour d'autres utilisateurs Jeedom qui auraient le même appareil que vous,
@@ -514,6 +516,8 @@ pour que je sois prévenu,
 - faire une PR sur le [dépôt github de MyModbus](https://github.com/MrWaloo/jeedom-mymodbus).  
 
 De cette manière la bibliothèque s'étoffera.
+
+***
 
 # En cas de problème
 
