@@ -99,7 +99,7 @@ Pour chaque appareil avec lequel vous souhaitez communiquer en Modbus, il faudra
 contiendra autant de commandes info ou action que vous avez de variables à lire ou à écrire. Les principes de Jeedom
 sont respectés. Si vous souhaitez scinder un appareil en plusieurs équipements, c'est possible, il suffit d'utiliser
 "Interface d'un autre équipement" pour le deuxième équipement et de choisir l'équipement dont la connexion sera
-utilisée :
+utilisée :  
 ![Connexion partagée](../images/mymodbus/Interface_partagée.png)
 
 Un outil "Déplacer les commandes", accessible depuis la page de gestion des équipements, permet de déplacer les
