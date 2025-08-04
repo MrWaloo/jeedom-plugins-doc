@@ -14,6 +14,10 @@ Documentation à jour avec la version V3.0.5 bêta2.
 
 #### 30/07/2025 bêta2
 
+> :warning: ***Important***  
+> Pour cette mise à jour, il faut stopper le démon, sauvegarder tous vos équipements et relancer le démon sans faire d'autre modification.  
+> Les prochaines mises à jour ne poseront plus ce problème.
+
 - Utilisation de la dernière version de pymodbus, la version V3.10.0 sortie le 27/07/2025
 - Utilisation de la bonne terminologie (programme, UI et documentation) (merci GTBuilder) :
     - client/serveur au lieu de esclave/maître
