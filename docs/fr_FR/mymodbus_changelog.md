@@ -12,6 +12,10 @@ Documentation à jour avec la version V3.0.5 bêta2.
 
 ### V3.0.5
 
+#### 06/08/2025 bêta3
+
+- Correction du problème repéré avec la bêta2 du 30/07/2025 suite à la mise à jour du plugin
+
 #### 30/07/2025 bêta2
 
 > :warning: ***Important***  
