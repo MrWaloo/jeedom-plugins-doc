@@ -170,7 +170,7 @@ même si plusieurs serveurs (avec chacun son ID) se trouvent sur le bus série. 
 commandes.
 - **tcp**, **udp** et **rtuovertcp** : Connexion via le réseau Ethernet
 - **Interface d'un autre équipement** : Permet d'utiliser la connexion définie dans un autre équipement si l'appareil
-ne supporte pas plusieurs connexions simultanées depuis la même source.
+ne supporte pas plusieurs connexions simultanées depuis la même source. C'est notamment le cas des connexions série.
 
 > :warning: ***Important***  
 > Si vous avez des appareils Modbus reliés à une paserelle IP/série et que votre machine Jeedom communique avec la
@@ -256,16 +256,16 @@ Ce sont les mêmes paramètres qui sont à renseigner pour les connexions UDP ou
 
 ### Cas d'une connexion (série) avec plusieurs appareils
 
-Dans ce cas, chaque appareil doit être configuré pour avoir un ID différent. Il est possible de regrouper toutes les commandes
-dans un équipement ou de faire un équipement par appareil.  
-Dans ce dernier cas, il est nécessaire de ne configurer la connexion que pour un seul équipement et d'utiliser le protocole de
-connexion **Interface d'un autre équipement** pour les autres équipements et de choisir d'utiliser la connexion de l'équipement
-configuré.
+Dans ce cas, chaque appareil doit être configuré pour avoir un ID différent. Il est possible de regrouper toutes les
+commandes dans un équipement ou de faire un équipement par appareil.  
+Dans ce dernier cas, il est nécessaire de ne configurer la connexion que pour un seul équipement et d'utiliser le
+protocole de connexion **Interface d'un autre équipement** pour les autres équipements et de choisir d'utiliser la
+connexion de l'équipement configuré.
 
-Pour les appareils avec une connexion par le réseau (TCP ou UDP), il n'est pas nécessaire d'utiliser la connexion d'un autre
-équipement sauf pour des appareils qui n'acceptent qu'une connexion.  
-Pour les connexions sur un bus série, l'interface partagée est le seul moyen de communiquer avec plusieurs équipements avec la
-même interface série.
+Pour les appareils avec une connexion par le réseau (TCP ou UDP), il n'est pas nécessaire d'utiliser la connexion d'un
+autre équipement sauf pour des appareils qui n'acceptent qu'une connexion.  
+Pour les connexions sur un bus série, l'interface partagée est le seul moyen de communiquer avec plusieurs équipements
+avec la même interface série.
 
 ### Equipement de test de registres
 
