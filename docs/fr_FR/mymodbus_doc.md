@@ -254,6 +254,19 @@ particulier, le port est le 502.
 
 Ce sont les mêmes paramètres qui sont à renseigner pour les connexions UDP ou RTUoverTCP.
 
+### Cas d'une connexion (série) avec plusieurs appareils
+
+Dans ce cas, chaque appareil doit être configuré pour avoir un ID différent. Il est possible de regrouper toutes les commandes
+dans un équipement ou de faire un équipement par appareil.  
+Dans ce dernier cas, il est nécessaire de ne configurer la connexion que pour un seul équipement et d'utiliser le protocole de
+connexion **Interface d'un autre équipement** pour les autres équipements et de choisir d'utiliser la connexion de l'équipement
+configuré.
+
+Pour les appareils avec une connexion par le réseau (TCP ou UDP), il n'est pas nécessaire d'utiliser la connexion d'un autre
+équipement sauf pour des appareils qui n'acceptent qu'une connexion.  
+Pour les connexions sur un bus série, l'interface partagée est le seul moyen de communiquer avec plusieurs équipements avec la
+même interface série.
+
 ### Equipement de test de registres
 
 Si la case "Equipement destiné à tester l'existence des registres" est cochée, l'équipement fonctionne de manière
