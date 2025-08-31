@@ -2,7 +2,7 @@
 
 ## Documentation
 
-Documentation à jour avec la version V3.0.5 bêta2.
+Documentation à jour avec la version V3.0.5 stable.
 
 ## Développement en cours dans une branche beta-dev* pour la prochaine bêta
 
@@ -11,6 +11,11 @@ Documentation à jour avec la version V3.0.5 bêta2.
 ## Changelog
 
 ### V3.0.5
+
+#### 31/07/2025 stable
+
+- Passage de la version 3.0.5 bêta en stable
+- Les 2 branches sont alignées
 
 #### 06/08/2025 bêta3
 
