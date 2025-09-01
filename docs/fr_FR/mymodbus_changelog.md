@@ -15,6 +15,7 @@ Documentation à jour avec la version V3.0.5 stable.
 #### 01/09/2025 stable
 
 - Passage de la version 3.0.5 bêta3 en stable et correction de l'erreur sur la conversion des ID de commande
+- Utilisation de la dernière version de pymodbus, la version V3.11.1
 - Les 2 branches sont alignées
 
 #### 06/08/2025 bêta3
