@@ -14,12 +14,7 @@ Documentation à jour avec la version V3.0.5 stable.
 
 #### 01/09/2025 stable
 
-> :warning: ***Important***  
-> Pour cette mise à jour, si vous utilisez des équipements avec des ID différent de 1, il faut remettre la bonne valeur d'ID :
-> il faut donc stopper le démon, sauvegarder tous vos équipements avec le bon ID et relancer le démon.
-> Je corrigerai rapidement ce point donc vous n'êtes pas tenus de faire cette mise à jour.
-
-- Passage de la version 3.0.5 bêta3 en stable
+- Passage de la version 3.0.5 bêta3 en stable et correction de l'erreur sur la conversion des ID de commande
 - Les 2 branches sont alignées
 
 #### 06/08/2025 bêta3
