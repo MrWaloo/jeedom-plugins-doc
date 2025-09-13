@@ -14,7 +14,8 @@ Documentation à jour avec la version V3.0.5 stable.
 
 #### 14/09/2025 stable et bêta
 
-- Ajout template "MARSTEK Venus", pas de changement de version
+- Ajout template "MARSTEK Venus" (merci à ptityno)
+- Pas de changement de version
 - Les 2 branches sont toujours alignées
 
 #### 01/09/2025 stable
