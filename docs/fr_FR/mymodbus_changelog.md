@@ -10,6 +10,15 @@ Documentation à jour avec la version V3.0.5 stable.
 
 ## Changelog
 
+### V3.0.6
+
+#### 21/09/2025 bêta
+
+- Correction de l'affichage des champs de configuration de l'équipement (merci Rigolman69)
+- Correction de la valeur par défaut device ID qui pouvait être mis à 1 par erreur depuis la V3.0.5 bêta2
+
+NB : Pas de modification de fonctionnement du démon
+
 ### V3.0.5
 
 #### 14/09/2025 stable et bêta
