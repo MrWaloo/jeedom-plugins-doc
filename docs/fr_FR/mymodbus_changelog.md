@@ -12,7 +12,7 @@ Documentation à jour avec la version V3.0.5 stable.
 
 ### V3.0.6
 
-#### 25/10/2025 bêta1
+#### 26/10/2025 bêta1
 
 - Utilisation de la dernière version de pymodbus, la version V3.11.3
 - Adaptations pour la dernière version de pymodbus (DecoderPDU)
