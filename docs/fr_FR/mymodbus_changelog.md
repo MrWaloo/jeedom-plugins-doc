@@ -12,6 +12,10 @@ Documentation à jour avec la version V3.0.5 stable.
 
 ### V3.0.6
 
+#### 05/11/2025 bêta3
+
+- Correction spécifique à Debian12 (merci michichi)
+
 #### 30/10/2025 bêta2
 
 - Correction de synthaxe du démon sans en changer le fonctionnement pour ignorer une erreur
