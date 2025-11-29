@@ -27,7 +27,7 @@ Documentation à jour avec la version V3.0.6 stable.
 
 #### 30/10/2025 bêta2
 
-- Correction de synthaxe du démon sans en changer le fonctionnement pour ignorer une erreur
+- Correction de syntaxe du démon sans en changer le fonctionnement pour ignorer une erreur
 - Correction pour mettre à jour les 3 commandes (Cycle_OK, Polling et Temps de rafraîchissement) de tous les équipements qui utilisent l'interface d'un équipement. Ca ne fonctionnait que pour un équipement, maintenant ça fonctionnera pour tous. (merci thomaspascal)
 
 #### 26/10/2025 bêta1
