@@ -2,7 +2,7 @@
 
 ## Documentation
 
-Documentation à jour avec la version V3.0.5 stable.
+Documentation à jour avec la version V3.0.6 stable.
 
 ## Développement en cours dans une branche beta-dev* pour la prochaine bêta
 
@@ -11,6 +11,15 @@ Documentation à jour avec la version V3.0.5 stable.
 ## Changelog
 
 ### V3.0.6
+
+#### 30/11/2025 stable
+
+- Passage de la version 3.0.6 bêta4 en stable
+
+#### 07/11/2025 bêta4
+
+- Corrections spécifiques à php8 (debian12)
+- Correction du démon pour que les commandes dont il faut envoyer la valeur à Jeedom, même sans changement de valeur, soient traitées correctement
 
 #### 05/11/2025 bêta3
 
