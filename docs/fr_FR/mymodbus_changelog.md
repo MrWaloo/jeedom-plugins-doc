@@ -474,7 +474,7 @@ Cette fonctionnalité est basée sur ce qui existe dans jMQTT
 
 #### 09/04/2023 bêta15
 
-- Amélioration de la saisie des commandes an désélectionnant les options invisibles (merci à Noyax37)
+- Amélioration de la saisie des commandes en désélectionnant les options invisibles (merci à Noyax37)
 - Remontée de la valeur lue vers Jeedom par le démon si la commande est configurée avec "Répéter les valeurs identiques" à "Oui" (merci Bison pour l'astuce)
 - Meilleure gestion des exceptions
 - Ajout du nom de l'équipement dans les logs du démon (là où c'est possible)
