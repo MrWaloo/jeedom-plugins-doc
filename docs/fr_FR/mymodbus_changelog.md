@@ -16,6 +16,7 @@ Documentation à jour avec la version V3.0.6 stable.
 
 - Passage de la version 3.0.6 bêta4 en stable
 - Petite correction du template MARSTEK Venus pour la commande "Etat Inverter" (merci OlivierHa)
+- Correction de la mise en forme des valeurs qui pouvait être mal interprétée par le core (merci Dome)
 
 #### 07/11/2025 bêta4
 
