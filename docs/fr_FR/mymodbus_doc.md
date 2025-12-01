@@ -381,7 +381,7 @@ le même que pour une chaine de caractères à savoir 'adresse_début [longueur]
 en une requête dépend du matériel et est généralement documenté. Une commande de ce type prend une valeur '1' si la
 requête est exécutée sans erreur. Sinon elle prend la valeur '0'.  
 Pour extraire une valeur de cette plage de registres, les autres commandes doivent être configurées avec une requête
-'Depuis une plage de données'. La commande qui lit la plage concernée est à sélectionner et le champ d'adresse est
+'Depuis une plage de registres'. La commande qui lit la plage concernée est à sélectionner et le champ d'adresse est
 identique à ce qui doit être configuré pour une commande standard.  
 Attention à faire en sorte que le registre soit effectivement dans la plage de lecture sans quoi la sauvegarde sera
 invalidée et vous devrez corriger la configuration.
