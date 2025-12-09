@@ -485,15 +485,15 @@ Le gain en temps d'exécution est énorme pour tous les types de connexion.
 Imaginons que sur un équipement vous vouliez lire plusieurs adresses entre 40000 et 40120, que dans cette plage toutes
 les adresses sont lisibles (parfois il y a des trous dans les tables d'adresses avec des adresses qu'il est impossible
 de lire et dont la tentative de lecture génère une erreur). Il est possible de définir une plage de registres à lire
-une seule fois, dont la commande info doit être placée avant la première utilisation et d'y faire référence dans les
-commandes info suivantes.
+une seule fois et d'y faire référence dans les commandes info qui l'utilisent. On peut définir plusieurs plages de
+registres.
 
 Plus simplement : on lit tout une plage et on vient piocher dans cette plage les valeurs dont on a réellement besoin.
 
 Ici un exemple :  
 ![Exemple d'utilisation de plage de registres](../images/mymodbus/Exemple_plage.png)
 
-Dans cet exemple, la commande avec l'ID 291 lit une plage à partir de l'adresse 12308 et de 8 registres, donc jusqu'à
+Dans cet exemple, la commande avec l'ID 291 lit une plage de 8 registres à partir de l'adresse 12308, donc jusqu'à
 l'adresse 12315.  
 La commande avec l'ID 293 utilise le registre 12315 en ne lançant pas de nouvelle requête de lecture mais en piochant
 dans la plage de l'ID 291.  
@@ -502,7 +502,8 @@ C'est une sorte de cache de lecture.
 L'utilisation de plages de registres dans un équipement MyModbus dépend de la compatiblité du matériel et du nombre de
 registres lisibles en une requête. Certains appareils sont en effet limités.
 
-La valeur d'une plage de registres est 1 si la lecture n'a pas généré d'erreur, sinon 0.
+La valeur d'une plage de registres est 1 si la lecture n'a pas généré d'erreur, sinon 0. Les log vous donneront des
+indications sur la raison de l'erreur de lecture.
 
 ## Sauvegarde d'un équipement
 
@@ -522,7 +523,7 @@ Exemple d'erreur sur la configuration de la commande 'Température extérieure' 
 
 # Templates
 
-Si vous pensez avoir un template interessant pour d'autres utilisateurs Jeedom qui auraient le même appareil que vous,
+Si vous pensez avoir un template intéressant pour d'autres utilisateurs Jeedom qui auraient le même appareil que vous,
 vous pouvez :
 - le proposer sur le [community de Jeedom](https://community.jeedom.com/) en précisant l'étiquette `#plugin-mymodbus`
 pour que je sois prévenu,
@@ -554,7 +555,7 @@ Si vous n'arrivez pas à vos fins et que vous avez besoin d'aide pour la configu
 la dernière version stable ou bêta selon votre choix.
 
 Commencez un nouveau fil de discussion en précisant l'étiquette `#plugin-mymodbus` et donnez :
-- un maximum de détail sur le matériel et ce que vous souhaitez faire,
+- un maximum de détails sur le matériel et ce que vous souhaitez faire,
 - la documentation des registres Modbus,
 - la configuration de l'équipement et des commandes soit avec des captures, soit avec un export du template,
 - les essais que vous avez faits,

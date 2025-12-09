@@ -10,6 +10,14 @@ Documentation à jour avec la version V3.0.6 stable.
 
 ## Changelog
 
+### V3.0.7
+
+#### 10/12/2025 bêta
+
+- Correction d'un problème qui pouvait ne pas rafraichir les équipements utilisant l'interface d'un autre équipement
+- Les commandes info de status (cycle_ok, cycle_time et polling) sont renvoyées par le démon même sans changement de valeur afin que la date de valeur soit rafraichie
+- Petites optimisations de code
+
 ### V3.0.6
 
 #### 30/11/2025 stable
