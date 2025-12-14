@@ -1,6 +1,6 @@
 # Plugin MyModbus
 
-Le plugin MyModBus permet d'intégrer des communications Modbus dans Jeedom. MyModbus est un maître Modbus capable de
+Le plugin MyModBus permet d'intégrer des communications Modbus dans Jeedom. MyModbus est un client Modbus capable de
 communiquer en :
 - Ethernet TCP standard ou RTU
 - Ethernet UDP

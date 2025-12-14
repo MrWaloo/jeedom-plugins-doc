@@ -12,10 +12,14 @@ Documentation à jour avec la version V3.0.6 stable.
 
 ### V3.0.7
 
+#### 14/12/2025 bêta2
+
+- Correction permettant l'exécution de la formule ou du filtre en paramètre pour les commandes info (merci thomaspascal)
+
 #### 11/12/2025 bêta1
 
 - Correction de l'exception levée lors de la désactivation d'un équipement  (merci thomaspascal)
-- Parfois, en fonction de la charge de la machine, il se pouvait que les clients MyModbus soient démarrés deux fois. Ce problème est corrigé  (merci thomaspascal)
+- Parfois, en fonction de la charge de la machine, il se pouvait que les clients MyModbus soient démarrés deux fois. Ce problème est corrigé (merci thomaspascal)
 
 #### 10/12/2025 bêta
 
