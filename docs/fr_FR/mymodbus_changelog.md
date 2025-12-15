@@ -12,6 +12,10 @@ Documentation à jour avec la version V3.0.6 stable.
 
 ### V3.0.7
 
+#### 16/12/2025 bêta3
+
+- Suppression de l'arrondi à 5 décimales forcé lors de l'actualisation d'une valeur envoyée par le démon
+
 #### 14/12/2025 bêta2
 
 - Correction permettant l'exécution de la formule ou du filtre en paramètre pour les commandes info (merci thomaspascal)
