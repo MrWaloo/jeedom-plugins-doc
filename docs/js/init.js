@@ -53,6 +53,7 @@ var doc_plugin = window.location.href.substring(lang_pos + lang.length + 1, unde
 if (getCookie('doc_plugin') != doc_plugin) {
   setCookie('doc_plugin', doc_plugin, 30);
 }
+console.log('doc_plugin:', doc_plugin);
 if ($('#sel_doc_plugin').val() != doc_plugin) {
   $('#sel_doc_plugin').val(doc_plugin);
 }
