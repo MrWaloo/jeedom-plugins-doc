@@ -1,9 +1,5 @@
 # Changelog MyModbus
 
-## Documentation
-
-Documentation à jour avec la version V3.0.6 stable.
-
 ## Développement en cours dans une branche beta-dev* pour la prochaine bêta
 
 - Pas de développement lourd en cours

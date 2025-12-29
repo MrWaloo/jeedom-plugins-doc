@@ -1,6 +1,6 @@
 # Plugin MyModBus-Server
 
-Le plugin MyModBus-Server permet d'intégrer des serveurs Modbus dans Jeedom. MyModBus-Server est un serveur Modbus
+Le plugin MyModbus-Server permet d'intégrer des serveurs Modbus dans Jeedom. MyModBus-Server est un serveur Modbus
 capable de communiquer en :
 - Ethernet TCP standard ou RTU
 - Ethernet UDP
@@ -8,8 +8,8 @@ capable de communiquer en :
 
 > :warning: ***Important***  
 > Ce plugin est destiné à des utilisateurs avertis et ayant des notions du protocole Modbus.  
-> Avant d'installer ce plugin, soyez certain de vous être documenté correctement sur le Modbus et sur ce plugin et tout
-> avoir parfaitement compris.
+> Avant d'installer ce plugin, soyez certain de vous être documenté correctement sur le Modbus et sur ce plugin et de
+> tout avoir parfaitement compris.
 
 A la fin de cette page se trouvent les instructions à respecter pour poser une question sur le
 [community de Jeedom](https://community.jeedom.com/).
@@ -52,3 +52,11 @@ du serveur Modbus au moment d'un changement de valeur.
 L'onglet dédié qui fourni la valeur courante des registres affiche des commandes info qui sont l'image des commandes
 action. Ces commandes ne sont pas configurables puisque potentiellement supprimées et recréées lors de la sauvegarde de
 l'équipement.
+
+
+***
+
+# En cas de problème
+
+En cas de problème d'utilisation du plugin, vous pouvez poster sur le
+[community de Jeedom](https://community.jeedom.com/).

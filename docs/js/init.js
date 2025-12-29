@@ -144,9 +144,9 @@ $(function() {
     window.location.hash = $(this).attr('href');
   });
 
-  setTimeout(function() {
-    $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10});
-  }, 100);
+//  setTimeout(function() {
+//    $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10});
+//  }, 100);
 
   $('#sel_lang').on('change', function() {
     setCookie('lang', $(this).val(), 30);
