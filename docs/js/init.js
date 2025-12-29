@@ -53,8 +53,6 @@ var doc_plugin = window.location.href.substring(lang_pos + lang.length + 1, unde
 if (getCookie('doc_plugin') != doc_plugin) {
   setCookie('doc_plugin', doc_plugin, 30);
 }
-console.log('doc_plugin:', doc_plugin);
-console.log('doc_plugin:', getCookie('doc_plugin'));
 if ($('#sel_doc_plugin').val() != doc_plugin) {
   $('#sel_doc_plugin').val(doc_plugin);
 }
@@ -104,7 +102,7 @@ function genText(_menu, _lang) {
 }
 
 $(function() {
-  document.title = 'Documentation plugins Jeedom'
+  document.title = 'Documentation plugins Jeedom';
   $('.sidenav').sidenav();
   setTimeout(function() {
     if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
