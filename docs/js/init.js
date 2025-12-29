@@ -54,6 +54,7 @@ if (getCookie('doc_plugin') != doc_plugin) {
   setCookie('doc_plugin', doc_plugin, 30);
 }
 console.log('doc_plugin:', doc_plugin);
+console.log('doc_plugin:', getCookie('doc_plugin'));
 if ($('#sel_doc_plugin').val() != doc_plugin) {
   $('#sel_doc_plugin').val(doc_plugin);
 }
