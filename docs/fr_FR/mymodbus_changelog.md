@@ -8,6 +8,12 @@
 
 ### V3.0.7
 
+#### 11/01/2026 stable
+
+- Passage de la version 3.0.7 bêta4 en stable
+- Ajout template MARSTEK Venus E V3
+- Petite correction sur la fonction utilisée pour afficher l'icône de l'équipement
+
 #### 18/12/2025 bêta4
 
 - Petite correction du template MARSTEK Venus pour la commande "Etat Inverter" (merci OlivierHa)
