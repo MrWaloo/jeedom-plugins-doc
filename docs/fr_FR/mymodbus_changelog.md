@@ -8,7 +8,7 @@
 
 ### V3.0.7
 
-#### 11/01/2026 stable
+#### 12/01/2026 stable
 
 - Passage de la version 3.0.7 bêta4 en stable
 - Ajout template MARSTEK Venus E V3
