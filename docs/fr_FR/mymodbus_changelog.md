@@ -10,9 +10,9 @@
 
 #### 12/01/2026 bêta et stable
 
-- Passage de la version 3.0.7 bêta4 en stable
 - Ajout template MARSTEK Venus E V3
 - Petite correction sur la fonction utilisée pour afficher l'icône de l'équipement
+- Passage de la version 3.0.7 bêta4 en stable
 
 #### 18/12/2025 bêta4
 
@@ -42,9 +42,9 @@
 
 #### 30/11/2025 bêta et stable
 
-- Passage de la version 3.0.6 bêta4 en stable
 - Petite correction du template MARSTEK Venus pour la commande "Etat Inverter" (merci OlivierHa)
 - Correction de la mise en forme des valeurs qui pouvait être mal interprétée par le core (merci Dome)
+- Passage de la version 3.0.6 bêta4 en stable
 
 #### 07/11/2025 bêta4
 
@@ -83,9 +83,9 @@ NB : Pas de modification de fonctionnement du démon
 
 #### 01/09/2025 bêta et stable
 
-- Passage de la version 3.0.5 bêta3 en stable et correction de l'erreur sur la conversion des ID de commande
 - Utilisation de la dernière version de pymodbus, la version V3.11.1
 - Les 2 branches sont alignées
+- Passage de la version 3.0.5 bêta3 en stable et correction de l'erreur sur la conversion des ID de commande
 
 #### 06/08/2025 bêta3
 
@@ -117,8 +117,8 @@ NB : Pas de modification de fonctionnement du démon
 
 #### 12/07/2025 bêta et stable
 
-- Passage de la version 3.0.4 bêta en stable
 - Les 2 branches sont alignées
+- Passage de la version 3.0.4 bêta en stable
 
 #### 18/06/2025 bêta
 
@@ -128,9 +128,9 @@ NB : Pas de modification de fonctionnement du démon
 
 #### 10/06/2025 bêta et stable
 
-- Passage de la version 3.0.3 bêta1 en stable
 - Les 2 branches sont alignées
 - Intégration de 2 templates (merci wocha-fr)
+- Passage de la version 3.0.3 bêta1 en stable
 
 #### 07/06/2025 bêta1
 
@@ -145,8 +145,8 @@ NB : Pas de modification de fonctionnement du démon
 
 #### 07/05/2025 bêta et stable
 
-- Passage de la version 3.0.2 bêta en stable
 - Les 2 branches sont alignées
+- Passage de la version 3.0.2 bêta en stable
 
 #### 19/04/2025 bêta
 
@@ -157,8 +157,8 @@ NB : Pas de modification de fonctionnement du démon
 
 #### 13/04/2025 bêta et stable
 
-- Passage de la version 3.0.1 bêta6 en stable
 - Les 2 branches sont alignées
+- Passage de la version 3.0.1 bêta6 en stable
 
 #### 05/04/2025 bêta6
 
@@ -207,8 +207,8 @@ NB : Pas de modification de fonctionnement du démon
 
 #### 23/01/2025 stable
 
-- Passage de la version 3.0 bêta63 en stable
 - Suppression du lien invalide vers une vidéo dans la description (24/01/2025)
+- Passage de la version 3.0 bêta63 en stable
 
 #### 22/01/2025 bêta63
 
