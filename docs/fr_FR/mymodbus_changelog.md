@@ -8,7 +8,7 @@
 
 ### V3.0.7
 
-#### 12/01/2026 stable
+#### 12/01/2026 bêta et stable
 
 - Passage de la version 3.0.7 bêta4 en stable
 - Ajout template MARSTEK Venus E V3
@@ -40,7 +40,7 @@
 
 ### V3.0.6
 
-#### 30/11/2025 stable
+#### 30/11/2025 bêta et stable
 
 - Passage de la version 3.0.6 bêta4 en stable
 - Petite correction du template MARSTEK Venus pour la commande "Etat Inverter" (merci OlivierHa)
@@ -75,13 +75,13 @@ NB : Pas de modification de fonctionnement du démon
 
 ### V3.0.5
 
-#### 14/09/2025 stable et bêta
+#### 14/09/2025 bêta et stable
 
 - Ajout template "MARSTEK Venus" (merci à ptitdyno)
 - Pas de changement de version
 - Les 2 branches sont toujours alignées
 
-#### 01/09/2025 stable
+#### 01/09/2025 bêta et stable
 
 - Passage de la version 3.0.5 bêta3 en stable et correction de l'erreur sur la conversion des ID de commande
 - Utilisation de la dernière version de pymodbus, la version V3.11.1
@@ -115,7 +115,7 @@ NB : Pas de modification de fonctionnement du démon
 
 ### V3.0.4
 
-#### 12/07/2025 stable
+#### 12/07/2025 bêta et stable
 
 - Passage de la version 3.0.4 bêta en stable
 - Les 2 branches sont alignées
@@ -126,7 +126,7 @@ NB : Pas de modification de fonctionnement du démon
 
 ### V3.0.3
 
-#### 10/06/2025 stable
+#### 10/06/2025 bêta et stable
 
 - Passage de la version 3.0.3 bêta1 en stable
 - Les 2 branches sont alignées
@@ -143,7 +143,7 @@ NB : Pas de modification de fonctionnement du démon
 
 ### V3.0.2
 
-#### 07/05/2025 stable
+#### 07/05/2025 bêta et stable
 
 - Passage de la version 3.0.2 bêta en stable
 - Les 2 branches sont alignées
@@ -155,7 +155,7 @@ NB : Pas de modification de fonctionnement du démon
 
 ### V3.0.1
 
-#### 13/04/2025 stable
+#### 13/04/2025 bêta et stable
 
 - Passage de la version 3.0.1 bêta6 en stable
 - Les 2 branches sont alignées
