@@ -271,7 +271,8 @@ avec la même interface série.
 
 Si la case "Equipement destiné à tester l'existence des registres" est cochée, l'équipement fonctionne de manière
 singulière. Seule la commande action "Rafraîchir" est créée ainsi que les commandes info correspondant aux registres à
-tester.
+tester. Donc testez des petites plages, sans quoi Jeedom peut prendre du temps pour afficher toutes les commandes créées
+automatiquement.
 
 ![Configuration de test](../images/mymodbus/Config_test.png)
 
