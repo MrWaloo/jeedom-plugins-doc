@@ -429,8 +429,8 @@ une mise à l'échelle ou le filtrage d'un bit. Vous pouvez mettre dans ce champ
 saisir '#value#' et de respecter la syntaxe de php. Toutes les fonctions mathématiques de php sont disponibles.  
 Exemple : '(#value# + 7) * 3'  
 Si vous souhaitez extraire un bit d'un registre de 16 bits (préférablement de type uint16), vous pouvez utiliser la
-fonction d'aide en cliquant sur l'icône ![Icône](../images/mymodbus/Commande_aide_calcul.png) à droite du champ de saisie afin
-d'appeler la fenêtre suivante :  
+fonction d'aide en cliquant sur l'icône ![Icône](../images/mymodbus/Commande_aide_calcul.png) à droite du champ de saisie
+afin d'appeler la fenêtre suivante :  
 ![Icône](../images/mymodbus/Commande_fenêtre_aide_calcul.png)
 
 > :bulb: ***Astuce***  
@@ -463,7 +463,8 @@ la commande)
 - une seconde commande action qui remet le bit à 0
 
 > :memo: ***Remarques***  
-> 1. Pour les actions, les variables sur 8 bits sont ignorées sans avertissement.
+> 1. Les commandes actions dont le type de variable est sur 8 bits génèrent une erreur lors de la sauvegarde. Lors de
+> l'exécution de ces commandes action, rien n'est exécuté. Ces commandes sont tout simplement ignorées avec un avertissement.
 > 2. Le démon génèrera un 'Warning' pour les commandes action des types de variable SunSpec dont les adresses ne sont
 > pas concécutives et ignorera la requête afin d'éviter de supprimer les registres qui se trouvent entre les deux
 > registres paramétrés.
