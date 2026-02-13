@@ -8,6 +8,10 @@
 
 ### V3.0.7
 
+#### 13/02/2026 bêta et stable (patch)
+
+- Correction du comportement pour les commandes actions avec un type de variable sur 8 bits
+
 #### 12/01/2026 bêta et stable
 
 - Ajout template MARSTEK Venus E V3
