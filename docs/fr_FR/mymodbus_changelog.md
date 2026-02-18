@@ -8,7 +8,11 @@
 
 ### V3.0.7
 
-#### 13/02/2026 bêta et stable (patch)
+#### 18/02/2026 bêta et stable (patch2)
+
+- Correction de la fonction de déplacement des commandes entre des équipements utilisant la même interface
+
+#### 13/02/2026 bêta et stable (patch1)
 
 - Correction du comportement pour les commandes actions avec un type de variable sur 8 bits
 
