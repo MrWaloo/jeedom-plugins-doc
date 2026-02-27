@@ -6,6 +6,13 @@
 
 ## Changelog
 
+### V3.0.8
+
+#### 28/02/2026 bêta
+
+- Correction du problème dans le cas très spécifique où une écriture est lancée dans un équipement utilisant l'interface d'un autre équipement
+- Prise en compte fine du cas où l'équipement dont un autre équipement utilise l'interface est configuré avec un seul ID pour l'affichage de la configuration des autres équipements et de leurs commandes (même moi j'ai du mal à comprendre la description de la correction, mais en gros c'est un autre cas spécifique et maintenant c'est bien géré, même dans l'afficheur de template)
+
 ### V3.0.7
 
 #### 18/02/2026 bêta et stable (patch2)
