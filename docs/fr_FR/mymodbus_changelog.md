@@ -2,11 +2,15 @@
 
 ## Développement en cours dans une branche beta-dev* pour la prochaine bêta
 
-- Pas de développement lourd en cours
+- Passage en vanilla JS (suppression de la dépendance à jQuery)
 
 ## Changelog
 
 ### V3.0.8
+
+#### 11/04/2026 bêta1
+
+- Affichage uniquement des interfaces série disponibles sur la machine
 
 #### 28/02/2026 bêta
 
