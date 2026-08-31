@@ -8,6 +8,10 @@
 
 ### V3.0.8
 
+#### 01/09/2026 stable
+
+- Passage de la version 3.0.8 bêta1 en stable
+
 #### 11/04/2026 bêta1
 
 - Affichage uniquement des interfaces série disponibles sur la machine
