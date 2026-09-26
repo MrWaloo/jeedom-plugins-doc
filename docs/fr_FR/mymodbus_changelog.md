@@ -8,6 +8,10 @@
 
 ### V3.0.8
 
+#### 27/09/2026 V3.0.8 stable & bêta patch1
+
+- Correction de l'écriture pour un équipement utilisant l'interface d'un autre
+
 #### 01/09/2026 stable
 
 - Passage de la version 3.0.8 bêta1 en stable
