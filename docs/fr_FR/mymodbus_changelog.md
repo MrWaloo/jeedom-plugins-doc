@@ -8,6 +8,10 @@
 
 ### V3.0.8
 
+#### 16/10/2026 V3.0.8 stable & bêta patch2
+
+- Correction du calcul de l'adresse de fin d'un string extrait d'une plage de registres (merci ktn)
+
 #### 27/09/2026 V3.0.8 stable & bêta patch1
 
 - Correction de l'écriture pour un équipement utilisant l'interface d'un autre
