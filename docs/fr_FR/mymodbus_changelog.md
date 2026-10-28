@@ -6,6 +6,12 @@
 
 ## Changelog
 
+### V3.0.9
+
+#### 30/10/2026 V3.0.9 bêta
+
+- Utilisation de la dernière version de pymodbus, la version V3.16.1
+
 ### V3.0.8
 
 #### 16/10/2026 V3.0.8 stable & bêta patch2
