@@ -8,6 +8,11 @@
 
 ### V3.0.9
 
+#### 21/11/2026 V3.0.9 beta 1
+
+- Utilisation de la dernière version de pymodbus, la version V3.16.2
+- Correction de l'écriture depuis un équipement utilisant l'interface d'un autre équipement
+
 #### 30/10/2026 V3.0.9 bêta
 
 - Utilisation de la dernière version de pymodbus, la version V3.16.1
